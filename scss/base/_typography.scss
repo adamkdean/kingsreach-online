@@ -1,0 +1,62 @@
+/* ==================================Typography======================================== */
+
+body {
+    font-family: $primaryFont;
+    font-size: $medium;
+
+    // Font Smoothing
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.primary-header {
+    font-size: $huge;
+    font-family: $secondaryFont;
+    &--dark {
+        @extend .primary-header ;
+        color: $black;
+    }
+    &--light {
+        @extend .primary-header ;
+        color: $white;
+    }
+}
+
+.secondary-header {
+    font-size: $large;
+    font-weight: bold;
+    font-family: $secondaryFont;
+    margin: 20px 0;
+    &--dark {
+        @extend .secondary-header;
+        color: $grey;
+    }
+    &--light {
+        @extend .secondary-header;
+        color: $white;
+    }
+}
+
+.copy {
+    font-family: $primaryFont;
+    font-size: $medium;
+    line-height: 1.5;
+    margin: 10px 0 0 0;
+    &--dark {
+        @extend .copy;
+        color: $black;
+    }
+    &--light {
+        @extend .copy;
+        color: $white;
+    }
+}
+
+// Assign quick styles
+.align-left {text-align: left;}
+.align-center {text-align: center;}
+.align-right {text-align: right;}
+.align-justify {text-align: justify;}
+.uppercase {text-transform: uppercase;}
+.lowercase {text-transform: lowercase;}
+.heavy {font-weight: 600;}

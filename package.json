@@ -1,0 +1,16 @@
+{
+  "name": "lif-site",
+  "version": "1.0.0",
+  "description": "lif website",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css"
+  },
+  "author": "kirsty rose",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^3.8.0",
+    "nodemon": "^1.9.2"
+  }
+}
