@@ -42,13 +42,14 @@ body {
 header {
   width: 100%;
   float: right;
-  margin-bottom: 150px;
+	overflow: hidden;
+  margin-bottom: 250px;
   background: $primaryColor;
   color: $secondaryColor;
 }
 
 .navigation {
-  padding: 5%;
+  padding: 7% 0;
   display: inline-block;
   text-align: center;
   a {
@@ -59,7 +60,18 @@ header {
 		font-size: 15px;
 		font-weight: 600;
 		text-transform: uppercase;
+		&:hover {
+			cursor: pointer;
+			color: $tertiaryColor;
+		}
   }
+	.active {
+		color: $tertiaryColor;
+	}
+}
+
+.ip {
+	line-height: 50px;
 }
 
 .masthead {
@@ -72,10 +84,24 @@ header {
       @extend .masthead;
       background: url("../img/LIF1.png") center center;
   }
+	&--rules {
+      @extend .masthead;
+      background: url("../img/LIF2.png") center center;
+  }
+	&--events {
+      @extend .masthead;
+      background: url("../img/LIF3.png") center center;
+  }
+	&--contact {
+      @extend .masthead;
+      background: url("../img/LIF4.png") center center;
+  }
 }
 
 .title {
-
+		position: fixed;
+    width: 100%;
+    margin-top: 150px;
 }
 
 main {
@@ -86,11 +112,24 @@ main {
   background: $secondaryColor;
 	padding: 0.5%;
 	overflow: hidden;
-  padding: 3%;
+  padding: 1% 0;
   border: 1px solid $grey;
+	border-top-left-radius: 50px;
+		-moz-border-top-left-radius: 50px;
+		-webkit-border-top-left-radius: 50px;
+		-o-border-top-left-radius: 50px;
 }
 
 footer {
-
-
+	width: 100%;
+  float: right;
+	overflow: hidden;
+	padding: 2%;
+	margin-top: 25px;
+	background: $lightgrey;
+  color: $primaryColor;
+	.footer-items {
+		width: 100%;
+		display: inline-block;
+	}
 }

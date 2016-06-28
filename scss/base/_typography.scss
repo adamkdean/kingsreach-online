@@ -3,7 +3,6 @@
 body {
     font-family: $primaryFont;
     font-size: $medium;
-
     // Font Smoothing
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -12,6 +11,7 @@ body {
 .primary-header {
     font-size: $huge;
     font-family: $secondaryFont;
+    padding: 1%;
     &--dark {
         @extend .primary-header ;
         color: $black;
@@ -27,12 +27,29 @@ body {
     font-weight: bold;
     font-family: $secondaryFont;
     margin: 20px 0;
+    padding: 1%;
     &--dark {
         @extend .secondary-header;
-        color: $grey;
+        color: $charcoal;
     }
     &--light {
         @extend .secondary-header;
+        color: $white;
+    }
+}
+
+.tertiary-header {
+    padding: 1%;
+    font-size: $large;
+    font-weight: bold;
+    font-family: $secondaryFont;
+    margin: 20px 0;
+    &--dark {
+        @extend .tertiary-header;
+        color: $grey;
+    }
+    &--light {
+        @extend .tertiary-header;
         color: $white;
     }
 }
@@ -42,6 +59,7 @@ body {
     font-size: $medium;
     line-height: 1.5;
     margin: 10px 0 0 0;
+    padding: 1%;
     &--dark {
         @extend .copy;
         color: $black;
@@ -60,3 +78,6 @@ body {
 .uppercase {text-transform: uppercase;}
 .lowercase {text-transform: lowercase;}
 .heavy {font-weight: 600;}
+.orange {color: $tertiaryColor;}
+.boxed {border: 1px dashed $tertiaryColor;}
+.underline {border-bottom: 1px dashed $tertiaryColor; padding-bottom: 5px;}

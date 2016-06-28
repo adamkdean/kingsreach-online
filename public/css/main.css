@@ -742,7 +742,8 @@ body {
 
 .primary-header, .primary-header--dark, .primary-header--light {
   font-size: 100px;
-  font-family: "Lobster", cursive; }
+  font-family: "Lobster", cursive;
+  padding: 1%; }
   .primary-header--dark {
     color: #161616; }
   .primary-header--light {
@@ -752,17 +753,30 @@ body {
   font-size: 30px;
   font-weight: bold;
   font-family: "Lobster", cursive;
-  margin: 20px 0; }
+  margin: 20px 0;
+  padding: 1%; }
   .secondary-header--dark {
-    color: #ccc; }
+    color: #1D1D1D; }
   .secondary-header--light {
+    color: #fcfcfc; }
+
+.tertiary-header, .tertiary-header--dark, .tertiary-header--light {
+  padding: 1%;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Lobster", cursive;
+  margin: 20px 0; }
+  .tertiary-header--dark {
+    color: #ccc; }
+  .tertiary-header--light {
     color: #fcfcfc; }
 
 .copy, .copy--dark, .copy--light {
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
   line-height: 1.5;
-  margin: 10px 0 0 0; }
+  margin: 10px 0 0 0;
+  padding: 1%; }
   .copy--dark {
     color: #161616; }
   .copy--light {
@@ -788,6 +802,16 @@ body {
 
 .heavy {
   font-weight: 600; }
+
+.orange {
+  color: #dc7756; }
+
+.boxed {
+  border: 1px dashed #dc7756; }
+
+.underline {
+  border-bottom: 1px dashed #dc7756;
+  padding-bottom: 5px; }
 
 /* ==================================Layout======================================== */
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -826,12 +850,13 @@ body {
 header {
   width: 100%;
   float: right;
-  margin-bottom: 150px;
+  overflow: hidden;
+  margin-bottom: 250px;
   background: #161616;
   color: #fcfcfc; }
 
 .navigation {
-  padding: 5%;
+  padding: 7% 0;
   display: inline-block;
   text-align: center; }
   .navigation a {
@@ -842,8 +867,16 @@ header {
     font-size: 15px;
     font-weight: 600;
     text-transform: uppercase; }
+    .navigation a:hover {
+      cursor: pointer;
+      color: #dc7756; }
+  .navigation .active {
+    color: #dc7756; }
 
-.masthead, .masthead--home {
+.ip {
+  line-height: 50px; }
+
+.masthead, .masthead--home, .masthead--rules, .masthead--events, .masthead--contact {
   width: 100%;
   float: right;
   min-height: 660px;
@@ -851,6 +884,17 @@ header {
   z-index: -1; }
   .masthead--home {
     background: url("../img/LIF1.png") center center; }
+  .masthead--rules {
+    background: url("../img/LIF2.png") center center; }
+  .masthead--events {
+    background: url("../img/LIF3.png") center center; }
+  .masthead--contact {
+    background: url("../img/LIF4.png") center center; }
+
+.title {
+  position: fixed;
+  width: 100%;
+  margin-top: 150px; }
 
 main {
   width: 100%;
@@ -860,5 +904,21 @@ main {
   background: #fcfcfc;
   padding: 0.5%;
   overflow: hidden;
-  padding: 3%;
-  border: 1px solid #ccc; }
+  padding: 1% 0;
+  border: 1px solid #ccc;
+  border-top-left-radius: 50px;
+  -moz-border-top-left-radius: 50px;
+  -webkit-border-top-left-radius: 50px;
+  -o-border-top-left-radius: 50px; }
+
+footer {
+  width: 100%;
+  float: right;
+  overflow: hidden;
+  padding: 2%;
+  margin-top: 25px;
+  background: #eee;
+  color: #161616; }
+  footer .footer-items {
+    width: 100%;
+    display: inline-block; }
