@@ -88,6 +88,7 @@ body {
 .uppercase {text-transform: uppercase;}
 .lowercase {text-transform: lowercase;}
 .heavy {font-weight: 600;}
+.no-margin {margin: 0;}
 .orange {color: $tertiaryColor;}
 .boxed {border: 1px dashed $tertiaryColor;}
 .underline {

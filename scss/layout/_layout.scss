@@ -56,7 +56,7 @@ header {
 }
 
 .navigation {
-  padding: 7% 0;
+  padding: 5% 0;
   display: inline-block;
   text-align: center;
   a {
@@ -67,6 +67,7 @@ header {
 		font-size: 15px;
 		font-weight: 600;
 		text-transform: uppercase;
+		line-height: 10px;
 		&:hover {
 			cursor: pointer;
 			color: $tertiaryColor;
@@ -74,6 +75,9 @@ header {
   }
 	.active {
 		color: $tertiaryColor;
+	}
+	@include mq($tab--lrg){
+		padding: 2% 0;
 	}
 }
 
@@ -84,10 +88,22 @@ header {
 	overflow: hidden;
 	float: left;
 	position: relative;
+	@include mq($tab--lrg){
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
 }
 
 .ip {
-	line-height: 50px;
+	line-height: 40px;
+	align: right;
+	text-align: right;
+	@include mq($tab--lrg){
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
 }
 
 .masthead {
@@ -131,7 +147,6 @@ main {
 	margin: 0 auto;
   margin-top: 150px;
   background: $secondaryColor;
-	padding: 0.5%;
 	overflow: hidden;
   padding: 1% 0;
   border: 1px solid $grey;
@@ -139,6 +154,10 @@ main {
 		-moz-border-top-left-radius: 50px;
 		-webkit-border-top-left-radius: 50px;
 		-o-border-top-left-radius: 50px;
+		border-bottom-right-radius: 50px;
+			-moz-bottom-right-radius: 50px;
+			-webkit-bottom-right-radius: 50px;
+			-o-bottom-right-radius: 50px;
 }
 
 footer {
