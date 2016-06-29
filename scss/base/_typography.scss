@@ -70,6 +70,14 @@ body {
     }
 }
 
+.anchor {
+  text-decoration: underline;
+  color: $tertiaryColor;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 // Assign quick styles
 .align-left {text-align: left;}
 .align-center {text-align: center;}
@@ -80,4 +88,8 @@ body {
 .heavy {font-weight: 600;}
 .orange {color: $tertiaryColor;}
 .boxed {border: 1px dashed $tertiaryColor;}
-.underline {border-bottom: 1px dashed $tertiaryColor; padding-bottom: 5px;}
+.underline {
+  border-bottom: 1px dashed $tertiaryColor;
+  padding-bottom: 10px;
+  width: 70%;
+}

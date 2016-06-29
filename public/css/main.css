@@ -745,7 +745,7 @@ body {
   font-family: "Lobster", cursive;
   padding: 1%; }
   .primary-header--dark {
-    color: #161616; }
+    color: #1e100c; }
   .primary-header--light {
     color: #fcfcfc; }
 
@@ -778,9 +778,15 @@ body {
   margin: 10px 0 0 0;
   padding: 1%; }
   .copy--dark {
-    color: #161616; }
+    color: #1e100c; }
   .copy--light {
     color: #fcfcfc; }
+
+.anchor {
+  text-decoration: underline;
+  color: #dc7756; }
+  .anchor:hover {
+    text-decoration: none; }
 
 .align-left {
   text-align: left; }
@@ -811,7 +817,8 @@ body {
 
 .underline {
   border-bottom: 1px dashed #dc7756;
-  padding-bottom: 5px; }
+  padding-bottom: 10px;
+  width: 70%; }
 
 /* ==================================Layout======================================== */
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -852,7 +859,7 @@ header {
   float: right;
   overflow: hidden;
   margin-bottom: 250px;
-  background: #161616;
+  background: #1e100c;
   color: #fcfcfc; }
 
 .navigation {
@@ -876,20 +883,23 @@ header {
 .ip {
   line-height: 50px; }
 
-.masthead, .masthead--home, .masthead--rules, .masthead--events, .masthead--contact {
+.masthead, .masthead--home, .masthead--rules, .masthead--events, .masthead--screenshots, .masthead--contact {
   width: 100%;
   float: right;
-  min-height: 660px;
+  min-height: 500px;
   position: fixed;
-  z-index: -1; }
+  z-index: -1;
+  border-bottom: 1px solid #ccc; }
   .masthead--home {
-    background: url("../img/LIF1.png") center center; }
+    background: url("../img/LIF1.png") #1e100c center center; }
   .masthead--rules {
-    background: url("../img/LIF2.png") center center; }
+    background: url("../img/LIF2.png") #1e100c center center; }
   .masthead--events {
-    background: url("../img/LIF3.png") center center; }
+    background: url("../img/LIF3.png") #1e100c center center; }
+  .masthead--screenshots {
+    background: url("../img/LIF4.png") #1e100c center center; }
   .masthead--contact {
-    background: url("../img/LIF4.png") center center; }
+    background: url("../img/LIF4.png") #1e100c center center; }
 
 .title {
   position: fixed;
@@ -918,7 +928,13 @@ footer {
   padding: 2%;
   margin-top: 25px;
   background: #eee;
-  color: #161616; }
+  color: #1e100c;
+  border-bottom: 20px solid #1e100c; }
   footer .footer-items {
     width: 100%;
     display: inline-block; }
+
+.scale-img {
+  width: 100%;
+  margin: 2% 0;
+  border: 1px solid #ccc; }

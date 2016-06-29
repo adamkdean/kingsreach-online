@@ -77,24 +77,29 @@ header {
 .masthead {
   width: 100%;
   float: right;
-  min-height: 660px;
+  min-height: 500px;
   position: fixed;
   z-index: -1;
+	border-bottom: 1px solid $grey;
   &--home {
       @extend .masthead;
-      background: url("../img/LIF1.png") center center;
+      background: url("../img/LIF1.png") $black center center;
   }
 	&--rules {
       @extend .masthead;
-      background: url("../img/LIF2.png") center center;
+      background: url("../img/LIF2.png") $black center center;
   }
 	&--events {
       @extend .masthead;
-      background: url("../img/LIF3.png") center center;
+      background: url("../img/LIF3.png") $black center center;
+  }
+	&--screenshots {
+      @extend .masthead;
+      background: url("../img/LIF4.png") $black center center;
   }
 	&--contact {
       @extend .masthead;
-      background: url("../img/LIF4.png") center center;
+      background: url("../img/LIF4.png") $black center center;
   }
 }
 
@@ -128,8 +133,15 @@ footer {
 	margin-top: 25px;
 	background: $lightgrey;
   color: $primaryColor;
+	border-bottom: 20px solid $black;
 	.footer-items {
 		width: 100%;
 		display: inline-block;
 	}
+}
+
+.scale-img {
+	width: 100%;
+	margin: 2% 0;
+	border: 1px solid $grey;
 }
