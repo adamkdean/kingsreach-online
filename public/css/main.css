@@ -412,7 +412,8 @@ th {
   .five.columns {
     width: 39.3333333333%; }
   .six.columns {
-    width: 48%; }
+    width: 48%;
+    padding: 2%; }
   .seven.columns {
     width: 56.6666666667%; }
   .eight.columns {
@@ -425,7 +426,8 @@ th {
     width: 91.3333333333%; }
   .twelve.columns {
     width: 100%;
-    margin-left: 0; }
+    margin-left: 0;
+    padding: 2%; }
   .one-third.column {
     width: 30.6666666667%; }
   .two-thirds.column {
@@ -759,6 +761,9 @@ body {
     color: #1D1D1D; }
   .secondary-header--light {
     color: #fcfcfc; }
+  @media screen and (max-width: 480px) {
+    .secondary-header, .secondary-header--dark, .secondary-header--light {
+      text-align: center; } }
 
 .tertiary-header, .tertiary-header--dark, .tertiary-header--light {
   padding: 1%;
@@ -770,6 +775,9 @@ body {
     color: #ccc; }
   .tertiary-header--light {
     color: #fcfcfc; }
+  @media screen and (max-width: 480px) {
+    .tertiary-header, .tertiary-header--dark, .tertiary-header--light {
+      text-align: center; } }
 
 .copy, .copy--dark, .copy--light {
   font-family: "Josefin Sans", sans-serif;
@@ -815,12 +823,23 @@ body {
 .boxed {
   border: 1px dashed #dc7756; }
 
-.underline {
-  border-bottom: 1px dashed #dc7756;
+.underline, .underline--light {
+  border-bottom: 1.5px dashed #dc7756;
   padding-bottom: 10px;
-  width: 70%; }
+  width: 90%; }
+  .underline--light {
+    border-bottom: 1.5px dashed #fcfcfc; }
+  @media screen and (max-width: 480px) {
+    .underline, .underline--light {
+      width: 100%; } }
 
 /* ==================================Layout======================================== */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box; }
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -880,6 +899,14 @@ header {
   .navigation .active {
     color: #dc7756; }
 
+.nav-item {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0.5%;
+  overflow: hidden;
+  float: left;
+  position: relative; }
+
 .ip {
   line-height: 50px; }
 
@@ -938,3 +965,15 @@ footer {
   width: 100%;
   margin: 2% 0;
   border: 1px solid #ccc; }
+
+.bg-grey {
+  background: #ccc; }
+
+.bg-white {
+  background: #fcfcfc; }
+
+.bg-orange {
+  background: #dc7756; }
+
+.bg-black {
+  background: #1e100c; }

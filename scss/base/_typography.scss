@@ -36,6 +36,7 @@ body {
         @extend .secondary-header;
         color: $white;
     }
+    @include mq($mob) {text-align: center;}
 }
 
 .tertiary-header {
@@ -52,6 +53,7 @@ body {
         @extend .tertiary-header;
         color: $white;
     }
+    @include mq($mob) {text-align: center;}
 }
 
 .copy {
@@ -89,7 +91,12 @@ body {
 .orange {color: $tertiaryColor;}
 .boxed {border: 1px dashed $tertiaryColor;}
 .underline {
-  border-bottom: 1px dashed $tertiaryColor;
+  border-bottom: 1.5px dashed $tertiaryColor;
   padding-bottom: 10px;
-  width: 70%;
+  width: 90%;
+  &--light {
+    @extend .underline;
+    border-bottom: 1.5px dashed $white;
+  }
+  @include mq($mob) {width: 100%;}
 }

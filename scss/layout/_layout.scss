@@ -1,5 +1,12 @@
 /* ==================================Layout======================================== */
 
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
 // reset
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -68,6 +75,15 @@ header {
 	.active {
 		color: $tertiaryColor;
 	}
+}
+
+.nav-item {
+	width: 50%;
+	margin: 0 auto;
+	padding: 0.5%;
+	overflow: hidden;
+	float: left;
+	position: relative;
 }
 
 .ip {
@@ -145,3 +161,8 @@ footer {
 	margin: 2% 0;
 	border: 1px solid $grey;
 }
+
+.bg-grey {background: $grey;}
+.bg-white {background: $white;}
+.bg-orange {background: $orange;}
+.bg-black {background: $black;}
