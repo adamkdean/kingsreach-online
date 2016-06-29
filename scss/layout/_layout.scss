@@ -51,6 +51,7 @@ header {
   float: right;
 	overflow: hidden;
   margin-bottom: 250px;
+	z-index: 10;
   background: $primaryColor;
   color: $secondaryColor;
 }
@@ -179,6 +180,26 @@ footer {
 	width: 100%;
 	margin: 2% 0;
 	border: 1px solid $grey;
+}
+
+.rules {
+	background: $white;
+	z-index: 0;
+	display: block;
+	position: fixed;
+	top: 0;
+	padding: 1%;
+	font-family: $primaryFont;
+}
+
+ol, ul {
+	margin-left: 1.5%;
+	font-family: $primaryFont;
+	font-size: $medium;
+	li {
+		margin-bottom: 1%;
+
+	}
 }
 
 .bg-grey {background: $grey;}

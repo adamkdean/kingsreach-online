@@ -817,6 +817,10 @@ body {
 .heavy {
   font-weight: 600; }
 
+.point {
+  background: #eee;
+  padding: 1.5%; }
+
 .no-margin {
   margin: 0; }
 
@@ -881,6 +885,7 @@ header {
   float: right;
   overflow: hidden;
   margin-bottom: 250px;
+  z-index: 10;
   background: #1e100c;
   color: #fcfcfc; }
 
@@ -987,6 +992,22 @@ footer {
   width: 100%;
   margin: 2% 0;
   border: 1px solid #ccc; }
+
+.rules {
+  background: #fcfcfc;
+  z-index: 0;
+  display: block;
+  position: fixed;
+  top: 0;
+  padding: 1%;
+  font-family: "Josefin Sans", sans-serif; }
+
+ol, ul {
+  margin-left: 1.5%;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px; }
+  ol li, ul li {
+    margin-bottom: 1%; }
 
 .bg-grey {
   background: #ccc; }
