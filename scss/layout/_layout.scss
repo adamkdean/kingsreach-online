@@ -120,11 +120,11 @@ header {
   }
 	&--rules {
       @extend .masthead;
-      background: url("../img/LIF2.png") $black center center;
+      background: url("../img/LIF4.png") $black center center;
   }
 	&--events {
       @extend .masthead;
-      background: url("../img/LIF3.png") $black center center;
+      background: url("../img/LIF2.png") $black center center;
   }
 	&--screenshots {
       @extend .masthead;
@@ -132,7 +132,7 @@ header {
   }
 	&--contact {
       @extend .masthead;
-      background: url("../img/LIF4.png") $black center center;
+      background: url("../img/LIF3.png") $black center center;
   }
 }
 
@@ -149,7 +149,7 @@ main {
   margin-top: 150px;
   background: $secondaryColor;
 	overflow: hidden;
-  padding: 1% 0;
+  padding: 2% 0 5% 0;
   border: 1px solid $grey;
 	border-top-left-radius: 50px;
 		-moz-border-top-left-radius: 50px;
@@ -190,15 +190,24 @@ footer {
 	top: 0;
 	padding: 1%;
 	font-family: $primaryFont;
+	border-bottom-right-radius: 20px;
+		-moz-bottom-right-radius: 20px;
+		-webkit-bottom-right-radius: 20px;
+		-o-bottom-right-radius: 20px;
 }
 
-ol, ul {
+ol {
 	margin-left: 1.5%;
 	font-family: $primaryFont;
 	font-size: $medium;
+	margin-bottom: 5%;
 	li {
 		margin-bottom: 1%;
-
+	}
+ 	ul {
+		padding: 5%;
+		font-family: $primaryFont;
+		font-size: $medium;
 	}
 }
 
