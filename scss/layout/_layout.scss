@@ -58,6 +58,21 @@ header {
 	margin-bottom: 350px;
 }
 
+.nav-toggle {
+	display: none;
+	width: 100%;
+	text-align: center;
+	font-family: $primaryFont;
+	color: $secondaryColor;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 20px 0 0 0;
+	cursor: pointer;
+	@include mq($mob--lrg){
+		display: block;
+	}
+}
+
 .navigation {
   padding: 5% 0;
   display: inline-block;
@@ -75,11 +90,22 @@ header {
 			cursor: pointer;
 			color: $tertiaryColor;
 		}
+		@include mq($mob--lrg){
+			display: block;
+			margin-top: 20px;
+			margin-right: 0;
+		}
+		@include mq($mob--lrg){
+			&:first-child{
+				margin: 0;
+			}
+		}
   }
 	.active {
 		color: $tertiaryColor;
 	}
-	@include mq($tab--lrg){
+	@include mq($mob--lrg){
+		display: none;
 		padding: 2% 0;
 	}
 }
@@ -95,6 +121,12 @@ header {
 		width: 100%;
 		text-align: center;
 		padding: 0;
+	}
+	@include mq($mob--lrg){
+		margin-top: 10px;
+		&:last-child{
+			border-top: 1px solid $secondaryColor;
+		}
 	}
 }
 
@@ -180,6 +212,10 @@ footer {
 	text-align: center;
 	top: 200px;
 	width: 100%;
+	z-index: -1;
+	@include mq($mob--lrg){
+		top: 200px;
+	}
 }
 
 .scale-img {
@@ -200,6 +236,9 @@ footer {
 		-moz-bottom-right-radius: 20px;
 		-webkit-bottom-right-radius: 20px;
 		-o-bottom-right-radius: 20px;
+		@include mq($mob){
+			display: none;
+		}
 }
 
 ol {

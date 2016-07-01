@@ -1074,6 +1074,20 @@ header {
   color: #fcfcfc;
   margin-bottom: 350px; }
 
+.nav-toggle {
+  display: none;
+  width: 100%;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  color: #fcfcfc;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 0 0 0;
+  cursor: pointer; }
+  @media screen and (max-width: 640px) {
+    .nav-toggle {
+      display: block; } }
+
 .navigation {
   padding: 5% 0;
   display: inline-block;
@@ -1090,10 +1104,19 @@ header {
     .navigation a:hover {
       cursor: pointer;
       color: #dc7756; }
+    @media screen and (max-width: 640px) {
+      .navigation a {
+        display: block;
+        margin-top: 20px;
+        margin-right: 0; } }
+    @media screen and (max-width: 640px) {
+      .navigation a:first-child {
+        margin: 0; } }
   .navigation .active {
     color: #dc7756; }
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 640px) {
     .navigation {
+      display: none;
       padding: 2% 0; } }
 
 .nav-item {
@@ -1108,6 +1131,11 @@ header {
       width: 100%;
       text-align: center;
       padding: 0; } }
+  @media screen and (max-width: 640px) {
+    .nav-item {
+      margin-top: 10px; }
+      .nav-item:last-child {
+        border-top: 1px solid #fcfcfc; } }
 
 .ip {
   line-height: 40px;
@@ -1173,7 +1201,11 @@ footer {
   position: absolute;
   text-align: center;
   top: 200px;
-  width: 100%; }
+  width: 100%;
+  z-index: -1; }
+  @media screen and (max-width: 640px) {
+    .title {
+      top: 200px; } }
 
 .scale-img {
   width: 100%;
@@ -1192,6 +1224,9 @@ footer {
   -moz-bottom-right-radius: 20px;
   -webkit-bottom-right-radius: 20px;
   -o-bottom-right-radius: 20px; }
+  @media screen and (max-width: 480px) {
+    .rules {
+      display: none; } }
 
 ol {
   margin-left: 1.5%;
