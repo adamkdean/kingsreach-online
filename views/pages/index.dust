@@ -1,0 +1,8 @@
+{>"pages/layout"/}
+
+{<content}
+
+  <!-- content -->
+  <p>content</p>
+
+{/content}
