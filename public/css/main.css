@@ -735,7 +735,7 @@ there.
 /* Larger than Desktop HD */
 /* Preload images */
 body:after {
-  content: url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);
+  content: url(../img/lightbox/close.png) url(../img/lightbox/loading.gif) url(../img/lightbox/prev.png) url(../img/lightbox/next.png);
   display: none; }
 
 body.lb-disable-scrolling {
@@ -800,7 +800,7 @@ body.lb-disable-scrolling {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url(../images/loading.gif) no-repeat; }
+  background: url(../img/lightbox/loading.gif) no-repeat; }
 
 .lb-nav {
   position: absolute;
@@ -826,7 +826,7 @@ body.lb-disable-scrolling {
   width: 34%;
   left: 0;
   float: left;
-  background: url(../images/prev.png) left 48% no-repeat;
+  background: url(../img/lightbox/prev.png) left 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -842,7 +842,7 @@ body.lb-disable-scrolling {
   width: 64%;
   right: 0;
   float: right;
-  background: url(../images/next.png) right 48% no-repeat;
+  background: url(../img/lightbox/next.png) right 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -898,7 +898,7 @@ body.lb-disable-scrolling {
   float: right;
   width: 30px;
   height: 30px;
-  background: url(../images/close.png) top right no-repeat;
+  background: url(../img/lightbox/close.png) top right no-repeat;
   text-align: right;
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
@@ -912,6 +912,9 @@ body.lb-disable-scrolling {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1; }
+
+.lb-details {
+  font-family: 'Josefin Sans', sans-serif; }
 
 /* ==================================Variables======================================== */
 /* ==================================Mixins======================================== */
@@ -1027,7 +1030,9 @@ body {
   -webkit-box-sizing: border-box;
   -o-box-sizing: border-box; }
 
-/* http://meyerweb.com/eric/tools/css/reset/
+/*
+ 	Reset
+	http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -1064,10 +1069,10 @@ header {
   width: 100%;
   float: right;
   overflow: hidden;
-  margin-bottom: 250px;
   z-index: 10;
   background: #1e100c;
-  color: #fcfcfc; }
+  color: #fcfcfc;
+  margin-bottom: 350px; }
 
 .navigation {
   padding: 5% 0;
@@ -1117,25 +1122,20 @@ header {
 .masthead, .masthead--home, .masthead--rules, .masthead--events, .masthead--screenshots, .masthead--contact {
   width: 100%;
   float: right;
-  min-height: 500px;
-  position: fixed;
+  min-height: 700px;
+  position: absolute;
   z-index: -1;
   border-bottom: 1px solid #ccc; }
   .masthead--home {
-    background: url("../img/LIF1.png") #1e100c center center; }
+    background: url("../img/LIF1.png") 50% 0 repeat fixed #1e100c; }
   .masthead--rules {
-    background: url("../img/LIF4.png") #1e100c center center; }
+    background: url("../img/LIF4.png") 50% 0 repeat fixed #1e100c; }
   .masthead--events {
-    background: url("../img/LIF2.png") #1e100c center center; }
+    background: url("../img/LIF2.png") 50% 0 repeat fixed #1e100c; }
   .masthead--screenshots {
-    background: url("../img/LIF4.png") #1e100c center center; }
+    background: url("../img/LIF4.png") 50% 0 repeat fixed #1e100c; }
   .masthead--contact {
-    background: url("../img/LIF3.png") #1e100c center center; }
-
-.title {
-  position: fixed;
-  width: 100%;
-  margin-top: 150px; }
+    background: url("../img/LIF3.png") 50% 0 repeat fixed #1e100c; }
 
 main {
   width: 100%;
@@ -1168,6 +1168,13 @@ footer {
     width: 100%;
     display: inline-block; }
 
+.title {
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  width: 100%; }
+
 .scale-img {
   width: 100%;
   margin: 2% 0;
@@ -1197,6 +1204,17 @@ ol {
     padding: 5%;
     font-family: "Josefin Sans", sans-serif;
     font-size: 18px; }
+
+.screenshots {
+  width: 100%;
+  float: right;
+  overflow: hidden; }
+  .screenshots .screenshots-item {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border: 1px solid #ccc;
+    overflow: hidden; }
 
 .bg-grey {
   background: #ccc; }

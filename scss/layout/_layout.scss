@@ -9,7 +9,9 @@
 
 // reset
 
-/* http://meyerweb.com/eric/tools/css/reset/
+/*
+ 	Reset
+	http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -44,16 +46,16 @@ body {
   background: $lightgrey;
 }
 
-// layout
+// Default layout styles
 
 header {
   width: 100%;
   float: right;
 	overflow: hidden;
-  margin-bottom: 250px;
 	z-index: 10;
   background: $primaryColor;
   color: $secondaryColor;
+	margin-bottom: 350px;
 }
 
 .navigation {
@@ -110,36 +112,30 @@ header {
 .masthead {
   width: 100%;
   float: right;
-  min-height: 500px;
-  position: fixed;
+  min-height: 700px;
+  position: absolute;
   z-index: -1;
 	border-bottom: 1px solid $grey;
   &--home {
       @extend .masthead;
-      background: url("../img/LIF1.png") $black center center;
+      background: url("../img/LIF1.png") 50% 0 repeat fixed $black;
   }
 	&--rules {
       @extend .masthead;
-      background: url("../img/LIF4.png") $black center center;
+      background: url("../img/LIF4.png") 50% 0 repeat fixed $black;
   }
 	&--events {
       @extend .masthead;
-      background: url("../img/LIF2.png") $black center center;
+      background: url("../img/LIF2.png") 50% 0 repeat fixed $black;
   }
 	&--screenshots {
       @extend .masthead;
-      background: url("../img/LIF4.png") $black center center;
+      background: url("../img/LIF4.png") 50% 0 repeat fixed $black;
   }
 	&--contact {
       @extend .masthead;
-      background: url("../img/LIF3.png") $black center center;
+      background: url("../img/LIF3.png") 50% 0 repeat fixed $black;
   }
-}
-
-.title {
-		position: fixed;
-    width: 100%;
-    margin-top: 150px;
 }
 
 main {
@@ -176,6 +172,16 @@ footer {
 	}
 }
 
+// Sitewide styles
+
+.title {
+	height: 458px;
+	position: absolute;
+	text-align: center;
+	top: 200px;
+	width: 100%;
+}
+
 .scale-img {
 	width: 100%;
 	margin: 2% 0;
@@ -210,6 +216,24 @@ ol {
 		font-size: $medium;
 	}
 }
+
+// Page Styles
+
+.screenshots {
+	width: 100%;
+  float: right;
+	overflow: hidden;
+	.screenshots-item {
+			display: inline-block;
+			width: 250px;
+			height: 250px;
+			border: 1px solid $grey;
+			overflow: hidden;
+
+	}
+}
+
+// Misc
 
 .bg-grey {background: $grey;}
 .bg-white {background: $white;}
