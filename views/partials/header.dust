@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{^title}King's Reach{:else}{title}{/title}</title>
+  <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+
+  <!-- header -->
+  <h1>Header</h1>

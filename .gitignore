@@ -1,3 +1,7 @@
+public/css/
+!public/css/.gitkeep
+dist/*
+!dist/.gitkeep
 node_modules/
 npm-debug.log
 .DS_Store
