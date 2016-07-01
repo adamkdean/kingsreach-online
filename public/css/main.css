@@ -1197,8 +1197,10 @@ footer {
   color: #1e100c;
   border-bottom: 20px solid #1e100c; }
   footer .footer-items {
-    width: 100%;
-    display: inline-block; }
+    width: 100%; }
+    footer .footer-items img {
+      display: block;
+      margin: 0 auto; }
 
 .title {
   height: 458px;

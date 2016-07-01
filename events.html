@@ -77,8 +77,11 @@
 <!-- == Footer == -->
 <footer>
   <div class="container">
-    <div class="footer-items align-center">
-      <img src="public/img/kings-reach-icon.png" alt="Kings Reach">
+    <div class="footer-items">
+      <img data-original="public/img/kings-reach-icon.png" class="lazy" alt="Kings Reach">
+      <noscript>
+        <img src="public/img/kings-reach-icon.png" alt="Kings Reach">
+      </noscript>
     </div>
     <h3 class="tertiary-header--light align-center no-margin orange">King's Reach</h3>
   </div>
@@ -88,9 +91,12 @@
 
 <script src="public/js/lib/jquery-3.0.0.min.js"></script>
 <script src="public/js/lib/lightbox.min.js"></script>
+<script src="public/js/lib/jquery.lazyload.js"></script>
 <script src="public/js/scripts/lightbox-init.js"></script>
 <script src="public/js/scripts/smoothscroll.js"></script>
+<script src="public/js/scripts/parallax.js"></script>
 <script src="public/js/scripts/responsive-nav.js"></script>
+<script src="public/js/scripts/lazyload-init.js"></script>
 
 <!-- == End Document == -->
 

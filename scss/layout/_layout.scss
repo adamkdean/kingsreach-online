@@ -171,8 +171,6 @@ header {
 }
 
 main {
-
-
 	width: 100%;
 	max-width: 960px;
 	height: auto;
@@ -181,7 +179,6 @@ main {
 	height: auto;
 	position: relative;
 	margin: 0 auto;
-
   background: $secondaryColor;
 	overflow: hidden;
   padding: 2% 0 5% 0;
@@ -207,7 +204,10 @@ footer {
 	border-bottom: 20px solid $black;
 	.footer-items {
 		width: 100%;
-		display: inline-block;
+		img {
+			display: block;
+			margin: 0 auto;
+		}
 	}
 }
 
