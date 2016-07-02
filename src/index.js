@@ -33,8 +33,22 @@ app.use('/public', staticMiddleware);
 // Routes
 //
 app.get('/', async (req, res) => {
-  const viewModel = Object.assign({}, baseViewModel, { test: true });
-  res.render('pages/index', viewModel);
+  res.render('pages/index', baseViewModel);
+});
+app.get('/index', async (req, res) => {
+  res.render('pages/index', baseViewModel);
+});
+app.get('/rules', async (req, res) => {
+  res.render('pages/rules', baseViewModel);
+});
+app.get('/events', async (req, res) => {
+  res.render('pages/events', baseViewModel);
+});
+app.get('/screenshots', async (req, res) => {
+  res.render('pages/screenshots', baseViewModel);
+});
+app.get('/contact', async (req, res) => {
+  res.render('pages/contact', baseViewModel);
 });
 
 //
