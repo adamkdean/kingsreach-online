@@ -10,7 +10,7 @@ if [ $OUT -eq 0 ]; then
     docker kill $IMAGE 2>/dev/null || true
     docker rm -f $IMAGE 2>/dev/null || true
     docker run -d \
-        --restart=always \
+        --restart=on-failure:5 \
         --name $IMAGE \
         --env HTTP_PORT=$HTTP_PORT \
         --publish $HTTP_PORT:$HTTP_PORT \
