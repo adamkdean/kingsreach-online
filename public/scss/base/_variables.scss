@@ -1,0 +1,37 @@
+/* ==================================Variables======================================== */
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+// Fonts
+
+$primaryFont:   'Josefin Sans', sans-serif;
+$secondaryFont: 'Lobster', cursive;
+
+// Colours
+
+$black:	    #1e100c;
+$white:	    #fcfcfc;
+$orange:    #dc7756;
+$charcoal:  #1D1D1D;
+$grey:      #ccc;
+$lightgrey: #eee;
+
+// 3 Colour Scheme
+
+$primaryColor:   $black;
+$secondaryColor: $white;
+$tertiaryColor:  $orange;
+
+// Sizing
+
+$small:   10px;
+$medium:  18px;
+$large:   30px;
+$huge:    100px;
+
+// Media Queries
+$mob:      480px;
+$mob--lrg: 640px;
+$tab:      768px;
+$tab--lrg: 820px;

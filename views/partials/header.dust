@@ -1,11 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Welcome to the King's Reach! We are a role playing, Life is Feudal server!">
+  <meta name="author" content="Kirsty Rose"/>
+  <meta name="keywords" content="Homepage, King's Reach, Life is Feudal, Server, Role Play">
+  <link rel="stylesheet" href="public/css/main.css">
+
+  <!--  == Device ready favicon == -->
+  <link rel="apple-touch-icon" sizes="57x57" href="public/img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="public/img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="public/img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="public/img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="public/img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="public/img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="public/img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="public/img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="public/img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="public/img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="public/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="public/img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="public/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="shortcut icon" type="image/x-icon" href="public/img/favicon/favicon.ico">
+
   <title>{^title}King's Reach{:else}{title}{/title}</title>
-  <link rel="stylesheet" href="/public/css/style.css">
 </head>
 <body>
 
-  <!-- header -->
-  <h1>Header</h1>
+<!-- == Header == -->
+<header>
+    <div class="container">
+      <a href="#" class="nav-toggle"><img src="public/img/nav-icon.png" alt="Menu"></a>
+      <div class="nav-item">
+        <nav class="navigation">
+          <a href="/">Home</a>
+          <a href="/rules">Rules</a>
+          <a href="/events">Events</a>
+          <a href="/screenshots">Screenshots</a>
+          <a href="/contact">Contact</a>
+        </nav>
+      </div>
+      <div class="nav-item">
+        <div class="copy--light ip">
+          <span class="orange">Server Address</span>: 94.23.16.218:40060
+        </div>
+      </div>
+    </div>
+</header>

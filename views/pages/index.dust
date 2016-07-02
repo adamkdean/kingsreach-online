@@ -2,7 +2,83 @@
 
 {<content}
 
-  <!-- content -->
-  <p>content</p>
+<!-- == Masthead == -->
+<div class="masthead--home" data-type="background" data-speed="3"></div>
+
+<div class="title">
+  <div class="container">
+    <h1 class="primary-header--light align-center">King's Reach</h1>
+  </div>
+</div>
+
+<!-- == Main content == -->
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h2 class="secondary-header--dark">Welcome, traveller, to the <span class="orange">King's Reach!</span></h2>
+        <p class="copy">
+          On June 10th, 1030, our story began. Two Slavard adventurers arrived on the King’s Reach from their distant homeland and began to settle the untamed and untapped peninsula. After much travel and toil, they pioneered the islands very first settlement: the <a href="/screenshots" class="anchor">Guild of Bastille</a>. To this very day, the Guild continues to grow and thrive, drawing it's momentum from hard work and the rich surroundings. Do you think you have what it takes to set out and pioneer your very own settlement in the land's vastly, untapped wilds?
+        </p>
+        <img data-original="public/img/embarked.jpg" class="scale-img lazy" alt="Kings Reach">
+        <noscript>
+          <img src="public/img/embarked.jpg" class="scale-img" alt="Kings Reach">
+        </noscript>
+      </div>
+      <p class="copy">
+        We are a role playing, player vs player, Life is Feudal server with the skill cap set at 3000. Become a master craftsman, king of the peasants or even challenge the founding hierarchy for dominance! Provided that you meet the requirements, you could become a trading hub or even bag yourself a title of nobility. The sky is the limit! Interested in joining? Check out our rules <a href="/rules" class="anchor">here</a>.
+      </p>
+    </div>
+    <div class="row">
+      <div class="six columns">
+        <h3 class="tertiary-header--dark underline">Immersive Role Play</h3>
+        <p class="copy">
+          Ne vis dolor delicata scribentur. Novum vitae dissentias in duo. Cu ullum vocent oportere est. Pri facer similique ad, in zril fabellas usu. Cum ut dictas commodo. Sea ad cibo quaerendum, sed eu autem oporteat moderatius. Cu ullum vocent oportere est. Pri facer similique ad, in zril fabellas usu. Cum ut dictas commodo.
+        </p>
+      </div>
+      <div class="six columns">
+        <img data-original="public/img/role-play.jpg" class="scale-img lazy" alt="Kings Reach">
+        <noscript>
+          <img src="public/img/role-play.jpg" class="scale-img" alt="Kings Reach">
+        </noscript>
+      </div>
+    </div>
+    <div class="row bg-grey">
+      <div class="six columns">
+        <img data-original="public/img/monetary-system.jpg" class="scale-img lazy" alt="Kings Reach">
+        <noscript>
+          <img src="public/img/monetary-system.jpg" class="scale-img" alt="Kings Reach">
+        </noscript>
+      </div>
+      <div class="six columns">
+        <h3 class="tertiary-header--light underline--light">Monetary System</h3>
+        <p class="copy">
+          Ne vis dolor delicata scribentur. Novum vitae dissentias in duo. Cu ullum vocent oportere est. Pri facer similique ad, in zril fabellas usu. Cum ut dictas commodo. Sea ad cibo quaerendum, sed eu autem oporteat moderatius. Cu ullum vocent oportere est. Pri facer similique ad, in zril fabellas usu. Cum ut dictas commodo.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="six columns">
+        <h3 class="tertiary-header--dark underline">Weekly Events</h3>
+        <p class="copy">
+          Nonumes disputando in eum, vis at liber debet, ius ei ullum feugait. Quem repudiandae definitionem ad quo. Id vis offendit interesset, mazim recteque intellegam nec id, habeo clita accommodare no pri. No his alii dicam, quod meliore perfecto vix ad. Cu ullum vocent oportere est. Pri facer similique ad, in zril fabellas usu. Cum ut dictas commodo.
+        </p>
+      </div>
+      <div class="six columns">
+        <img data-original="public/img/events.jpg" class="scale-img lazy" alt="Kings Reach">
+        <noscript>
+          <img src="public/img/events.jpg" class="scale-img" alt="Kings Reach">
+        </noscript>
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns">
+        <p class="copy">
+           Vis te utinam ignota, qui at nihil eripuit detracto, id dicat integre necessitatibus vis. Ne iudico dolorum tincidunt sea, ut accusamus interesset usu. Sea ex vitae tollit, noster facilis vim at. An vel quodsi consequat, duo legere quodsi docendi ei.
+        </p>
+      </div>
+    </div>
+  </div>
+</main>
 
 {/content}

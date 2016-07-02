@@ -1,0 +1,27 @@
+/* ==================================Mixins======================================== */
+
+// Media Queries
+
+$min: min-width;
+$max: max-width;
+
+@mixin mq($value, $axis: false) {
+	@if $axis {
+		@media screen and ("max-"+$axis: $value) {
+			@content;
+		}
+	} @else {
+		@media screen and (max-width: $value) {
+			@content;
+		}
+	}
+}
+
+// Box Sizing
+
+@mixin bxsizing {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
