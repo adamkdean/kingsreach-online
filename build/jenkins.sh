@@ -12,7 +12,8 @@ if [ $OUT -eq 0 ]; then
     docker run -d \
         --restart=always \
         --name $IMAGE \
-        -p $HTTP_PORT:80 \
+        --env HTTP_PORT=$HTTP_PORT \
+        --publish $HTTP_PORT:$HTTP_PORT \
         $IMAGE
 else
     exit $OUT
