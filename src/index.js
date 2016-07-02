@@ -14,7 +14,7 @@ const httpPort = process.env.HTTP_PORT || 3000;
 const app = express();
 
 const baseViewModel = {
-  title: `King's Reach – this is a custom title`
+  title: `King's Reach – LiF:YO game server`
 };
 
 //
