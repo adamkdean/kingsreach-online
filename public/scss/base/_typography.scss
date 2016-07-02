@@ -1,0 +1,104 @@
+/* ==================================Typography======================================== */
+
+body {
+    font-family: $primaryFont;
+    font-size: $medium;
+    // Font Smoothing
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.primary-header {
+    font-size: $huge;
+    font-family: $secondaryFont;
+    padding: 1%;
+    &--dark {
+        @extend .primary-header ;
+        color: $black;
+    }
+    &--light {
+        @extend .primary-header ;
+        color: $white;
+    }
+}
+
+.secondary-header {
+    font-size: $large;
+    font-weight: bold;
+    font-family: $secondaryFont;
+    margin: 20px 0;
+    padding: 1%;
+    &--dark {
+        @extend .secondary-header;
+        color: $charcoal;
+    }
+    &--light {
+        @extend .secondary-header;
+        color: $white;
+    }
+    @include mq($mob) {text-align: center;}
+}
+
+.tertiary-header {
+    padding: 1%;
+    font-size: $large;
+    font-weight: bold;
+    font-family: $secondaryFont;
+    margin: 20px 0;
+    &--dark {
+        @extend .tertiary-header;
+        color: $grey;
+    }
+    &--light {
+        @extend .tertiary-header;
+        color: $white;
+    }
+    @include mq($mob) {text-align: center;}
+}
+
+.copy {
+    font-family: $primaryFont;
+    font-size: $medium;
+    line-height: 1.5;
+    margin: 10px 0 0 0;
+    padding: 1%;
+    &--dark {
+        @extend .copy;
+        color: $black;
+    }
+    &--light {
+        @extend .copy;
+        color: $white;
+    }
+}
+
+.anchor {
+  text-decoration: underline;
+  color: $tertiaryColor;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// Assign quick styles
+.align-left {text-align: left;}
+.align-center {text-align: center;}
+.align-right {text-align: right;}
+.align-justify {text-align: justify;}
+.uppercase {text-transform: uppercase;}
+.lowercase {text-transform: lowercase;}
+.heavy {font-weight: 600;}
+.point {background: $lightgrey; padding: 1.5%;}
+.no-margin {margin: 0;}
+.orange {color: $tertiaryColor;}
+.boxed {border: 1px dashed $tertiaryColor;}
+.underline {
+  border-bottom: 1.5px dashed $tertiaryColor;
+  padding-bottom: 10px;
+  width: 90%;
+  &--light {
+    @extend .underline;
+    border-bottom: 1.5px dashed $white;
+  }
+  @include mq($mob) {width: 100%;}
+}

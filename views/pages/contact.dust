@@ -1,0 +1,28 @@
+{>"pages/layout"/}
+
+{<content}
+
+<!-- == Masthead == -->
+<div class="masthead--contact" data-type="background" data-speed="3"></div>
+
+<div class="title">
+  <div class="container">
+    <h1 class="primary-header--light align-center">Contact Details</h1>
+  </div>
+</div>
+
+<!-- == Main content == -->
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h2 class="secondary-header--dark">Contact <span class="orange">us.</span></h2>
+        <p class="copy">
+          test
+        </p>
+      </div>
+    </div>
+  </div>
+</main>
+
+{/content}
