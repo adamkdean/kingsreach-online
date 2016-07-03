@@ -16,13 +16,13 @@
   <div class="container">
     <div class="row">
       <div class="twelve columns">
-        <h2 class="secondary-header--dark">Upcoming <span class="orange">events.</span></h2>
-        <p class="copy">No new events are currently listed here.<br></p>
+        <h2 class="secondary-header--dark">Upcoming <span class="orange">events</span></h2>
+        <p class="copy">The next big event is "the opening of the server"!<br></p>
         <p class="copy">
-          We intend to create a special area for events on the server called "The Colosseum." Within this space, you will be able to compete with other players for a possible gold or high quality item reward.
+          In the future, we hope to create a special area for events on the server – maybe called "The Colosseum" – where events can take place. This could be sparring, jousting, or even drunken brawls. Once more people have migrated to the King's Reach, we'll arrange some events.
         </p>
         <p class="copy">
-          If you think that you have a good idea for an event, <a href="/contact" class="anchor">get in touch</a> with one of our GMs and we can get the ball rolling!
+          Have an idea for an event? Get on <a href="/contact" class="anchor">Slack</a>, our community chat platform, and let us know!
         </p>
       </div>
     </div>

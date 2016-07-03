@@ -18,7 +18,7 @@
       <div class="twelve columns">
         <h2 class="secondary-header--dark">Welcome, traveller, to the <span class="orange">King's Reach!</span></h2>
         <p class="copy">
-          On June 10th, 1030, our story began. Two Slavard adventurers arrived on the King’s Reach from their distant homeland and began to settle the untamed and untapped peninsula. After much travel and toil, they pioneered the islands very first settlement: the <a href="/screenshots" class="anchor">Guild of Bastille</a>. To this very day, the Guild continues to grow and thrive, drawing it's momentum from hard work and the rich surroundings. Do you think you have what it takes to set out and pioneer your very own settlement in the land's vastly, untapped wilds?
+          On June 10th, 1030, our story began. Two brave adventurers arrived on the King's Reach from their distant homelands and began to settle the untamed and untapped peninsula. After much travel and toil, they pioneered the islands very first settlement: the <a href="/screenshots" class="anchor">Guild of Bastille</a>. To this very day, the Guild continues to grow and thrive, drawing it's momentum from hard work and the rich surroundings. Do you think you have what it takes to set out and pioneer your very own settlement in the land's vastly, untapped wilds?
         </p>
         <img data-original="public/img/embarked.jpg" class="scale-img lazy" alt="Kings Reach">
         <noscript>
@@ -31,9 +31,9 @@
     </div>
     <div class="row">
       <div class="six columns">
-        <h3 class="tertiary-header--dark underline">Immersive Role Play</h3>
+        <h3 class="tertiary-header--dark underline">Bag a Title</h3>
         <p class="copy">
-          Ne vis dolor delicata scribentur. Novum vitae dissentias in duo. Cu ullum vocent oportere est. Pri facer similique ad, in zril fabellas usu. Cum ut dictas commodo. Sea ad cibo quaerendum, sed eu autem oporteat moderatius. Cu ullum vocent oportere est. Pri facer similique ad, in zril fabellas usu. Cum ut dictas commodo.
+          Life is Feudal, and like any feudal system there is a natural order of status here on the server! Are you a baron? Have you managed to acquire enough support to become a Lord? Reckon you should be kind and rule over these lands? Titles of nobily are an easy way to bag a nice sum of gold.
         </p>
       </div>
       <div class="six columns">
@@ -53,7 +53,7 @@
       <div class="six columns">
         <h3 class="tertiary-header--light underline--light">Monetary System</h3>
         <p class="copy">
-          Ne vis dolor delicata scribentur. Novum vitae dissentias in duo. Cu ullum vocent oportere est. Pri facer similique ad, in zril fabellas usu. Cum ut dictas commodo. Sea ad cibo quaerendum, sed eu autem oporteat moderatius. Cu ullum vocent oportere est. Pri facer similique ad, in zril fabellas usu. Cum ut dictas commodo.
+          We have introduced a Gold based <a href="/monetary-system" class="anchor">monetary system</a> to the server. Each item will have a recommended market value, however this is merely a guideline. Traders are free to set their own prices, so you may need to barter for your much needed resources! There are many way to accumulate gold, including stating a claim, winning an event, or even gaining a noble title.
         </p>
       </div>
     </div>
@@ -61,7 +61,7 @@
       <div class="six columns">
         <h3 class="tertiary-header--dark underline">Weekly Events</h3>
         <p class="copy">
-          Nonumes disputando in eum, vis at liber debet, ius ei ullum feugait. Quem repudiandae definitionem ad quo. Id vis offendit interesset, mazim recteque intellegam nec id, habeo clita accommodare no pri. No his alii dicam, quod meliore perfecto vix ad. Cu ullum vocent oportere est. Pri facer similique ad, in zril fabellas usu. Cum ut dictas commodo.
+          We eventually intend to introduce a <a href="/events" class="anchor">weekly event</a> to the server, likely to be held on a Friday or Saturday evening. These events, usually combat based, will take place at The Colosseum. The Colosseum is a totally safe zone, where players can chill and enjoy watching the combatants tear each other apart. There are prizes to be won... think you've got what it takes?
         </p>
       </div>
       <div class="six columns">
@@ -74,7 +74,10 @@
     <div class="row">
       <div class="twelve columns">
         <p class="copy">
-           Vis te utinam ignota, qui at nihil eripuit detracto, id dicat integre necessitatibus vis. Ne iudico dolorum tincidunt sea, ut accusamus interesset usu. Sea ex vitae tollit, noster facilis vim at. An vel quodsi consequat, duo legere quodsi docendi ei.
+           Interested in becoming a GM or part of the <a href="https://github.com/kingsreach/kingsreach-online/blob/master/CONTRIBUTING.md" class="anchor" target="_blank">development</a> team?
+        </p>
+        <p class="copy">
+          Get <a href="/contact" class="anchor">invovled in the discussion</a> on Slack.
         </p>
       </div>
     </div>

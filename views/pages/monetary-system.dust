@@ -1,0 +1,35 @@
+{>"pages/layout"/}
+
+{<content}
+
+<!-- == Masthead == -->
+<div class="masthead--home" data-type="background" data-speed="3"></div>
+
+<div class="title">
+  <div class="container">
+    <h1 class="primary-header--light align-center">Monetary System</h1>
+  </div>
+</div>
+
+<!-- == Main content == -->
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h2 class="secondary-header--dark">Monetary System</h2>
+        <p class="copy">"I'm still working on the monetary system" – Ulfric Irongrip, Head GM<br></p>
+        <p class="copy">
+          When stating a claim, you are free to collect 100 GP. There will be other ways to win money, such as having enough vassals that you become a baron, a lord, or perhaps even the King. Winning events in The Colloseum is another way to win some Gold Peices.
+        </p>
+        <p class="copy">
+          Expect updates on this page pertaining to rules, regulations, and fiscal updates.
+        </p>
+        <p class="copy">
+          Recommended Market Value list will be released soon.
+        </p>
+      </div>
+    </div>
+  </div>
+</main>
+
+{/content}

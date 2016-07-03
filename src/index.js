@@ -50,6 +50,9 @@ app.get('/screenshots', async (req, res) => {
 app.get('/contact', async (req, res) => {
   res.render('pages/contact', baseViewModel);
 });
+app.get('/monetary-system', async (req, res) => {
+  res.render('pages/monetary-system', baseViewModel);
+});
 
 //
 // Run
