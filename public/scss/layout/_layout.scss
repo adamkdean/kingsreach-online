@@ -277,7 +277,21 @@ ol {
 			height: 250px;
 			border: 1px solid $grey;
 			overflow: hidden;
-
+	}
+	@include mq($tab--lrg){
+		a	{
+			display: inline-block;
+			width: 50%;
+			text-align: center;
+			.screenshots-item {
+				margin: 0 auto;
+			}
+		}
+	}
+	@include mq($mob--lrg){
+		a {
+			width: 100%;
+		}
 	}
 }
 
@@ -287,3 +301,8 @@ ol {
 .bg-white {background: $white;}
 .bg-orange {background: $orange;}
 .bg-black {background: $black;}
+.display-none { display: none;}
+@include mq($mob--lrg){
+	.display-none { display: block;}
+	.display { display: none;}
+}
