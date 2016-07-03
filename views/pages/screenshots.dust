@@ -7,7 +7,10 @@
 
 <div class="title">
   <div class="container">
-    <h1 class="primary-header--light align-center">Screenshots</h1>
+    <h1 class="primary-header--light align-center display">Screenshots</h1>
+    <div class="display-none">
+      <p class="primary-header--light align-center">Screen shots</p>
+    </div>
   </div>
 </div>
 
