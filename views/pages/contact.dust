@@ -18,8 +18,20 @@
       <div class="twelve columns">
         <h2 class="secondary-header--dark">Contact <span class="orange">us.</span></h2>
         <p class="copy">
-          test
+          You can catch us on Slack, feel free to join and start chatting! New to slack? It's pretty cool, check it out <a href="https://slack.com" class="anchor" target="_blank">here</a>.
         </p>
+        <p class="copy">
+          Sign in here:<br>
+          <script async defer src="http://slack.kingsreach.online/slackin.js"></script>
+          <p class="copy">Direct link:<br>  <a href="http://slack.kingsreach.online/" class="anchor">slack.kingsreach.online</a></p>
+        </p>
+        <p class="copy">
+          <ol>
+            <li>We have a few different channels available depending on your query. Please make sure to <span class="orange">keep your problems and/or complaints to the "Issues" channel</span>.</li>
+            <li>Make sure to set your username as your ingame character's name. This helps to keep things nice and simple when dealing with issues.</li>
+          </ol>
+        </p>
+
       </div>
     </div>
   </div>

@@ -11,6 +11,11 @@
   </div>
 </div>
 
+<nav class="rules align-center">
+  <a href="#rules" class="anchor">Rules</a> |
+  <a href="#policy" class="anchor">Policy</a>
+</nav>
+
 <!-- == Main content == -->
 <main>
   <div class="container">
@@ -37,7 +42,7 @@
           <span class="heavy point">Role Play:</span><br><br>
             <ol>
               <li>
-                It is preferred that you RP both in General chat and in person. This gives a little bit more immersion to the game.
+                It is preferred that you RP both in General Chat and in person. This gives a little bit more immersion to the game.
               </li>
             </ol>
         </p>
