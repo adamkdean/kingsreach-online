@@ -18,7 +18,7 @@
       <div class="twelve columns">
         <h2 class="secondary-header--dark">Welcome, traveller, to the <span class="orange">King's Reach!</span></h2>
         <p class="copy">
-          On June 10th, 1030, our story began. Two brave adventurers arrived on the King’s Reach from their distant homelands and began to settle the untamed and untapped peninsula. After much travel and toil, they pioneered the islands very first settlement: the <a href="/screenshots" class="anchor">Guild of Bastille</a>. To this very day, the Guild continues to grow and thrive, drawing it's momentum from hard work and the rich surroundings. Do you think you have what it takes to set out and pioneer your very own settlement in the land's vastly, untapped wilds?
+          On June 10th, 1030, our story began. Two brave adventurers arrived on the King's Reach from their distant homelands and began to settle the untamed and untapped peninsula. After much travel and toil, they pioneered the islands very first settlement: the <a href="/screenshots" class="anchor">Guild of Bastille</a>. To this very day, the Guild continues to grow and thrive, drawing it's momentum from hard work and the rich surroundings. Do you think you have what it takes to set out and pioneer your very own settlement in the land's vastly, untapped wilds?
         </p>
         <img data-original="public/img/embarked.jpg" class="scale-img lazy" alt="Kings Reach">
         <noscript>
@@ -53,7 +53,7 @@
       <div class="six columns">
         <h3 class="tertiary-header--light underline--light">Monetary System</h3>
         <p class="copy">
-          We have introduced a gold-based <a href="/monetary-system" class="anchor">monetary system</a> to the server. Each item has a recommended market value, <a href="#" class="anchor">viewable here</a>, however this is merely a guideline. Traders are free to set their own prices, so you may need to barter for your much needed resources! There are many way to accumulate gold, including stating a claim, winning an event, becoming a trading hub, or even gaining a noble title.
+          We have introduced a Gold based <a href="/monetary-system" class="anchor">monetary system</a> to the server. Each item will have a recommended market value, however this is merely a guideline. Traders are free to set their own prices, so you may need to barter for your much needed resources! There are many way to accumulate gold, including stating a claim, winning an event, or even gaining a noble title.
         </p>
       </div>
     </div>
@@ -74,7 +74,10 @@
     <div class="row">
       <div class="twelve columns">
         <p class="copy">
-           Interested in becoming a GM or part of the <a href="https://github.com/kingsreach/kingsreach-online/blob/master/CONTRIBUTING.md" class="anchor" target="_blank">development</a> team? You can get in touch with us <a href="/contact" class="anchor">here.</a>
+           Interested in becoming a GM or part of the <a href="https://github.com/kingsreach/kingsreach-online/blob/master/CONTRIBUTING.md" class="anchor" target="_blank">development</a> team?
+        </p>
+        <p class="copy">
+          Get <a href="/contact" class="anchor">invovled in the discussion</a> on Slack.
         </p>
       </div>
     </div>

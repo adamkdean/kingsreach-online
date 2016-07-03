@@ -12,7 +12,7 @@
 </div>
 
 <nav class="rules align-center">
-  <a href="#rules" class="anchor">Rules</a> |
+  <a href="#rules" class="anchor">Rules</a>&nbsp;|&nbsp;
   <a href="#policy" class="anchor">Policy</a>
 </nav>
 
@@ -24,53 +24,55 @@
         <a id="rules"></a>
         <h2 class="secondary-header--dark">Server <span class="orange">rules</span></h2>
         <p class="copy">
-          <span class="heavy point">Claims:</span><br><br>
+          <span class="heavy point">Claims</span><br><br>
             <ol>
-              <li>Don’t claim clay patches. Any claims which encompass a clay patch will be removed.</li>
+              <li>Don't claim clay patches. Any claims which encompass a clay patch will be removed.</li>
               <li>Players must not attack settlements within the first 24 hours after a monument is built. You should announce when your monument is erected and state that you wish to begin your 24 hour grace period.</li>
+              <li>As a bonus, for every claim erected, the King's Bank will issue 100 Gold Coins to the Guild Leader!</li>
             </ol>
         </p>
         <p class="copy">
-          <span class="heavy point">Resources:</span><br><br>
+          <span class="heavy point">Resources</span><br><br>
             <ol>
               <li>Uproot your stumps so that new trees can grow back.</li>
-              <li>Don’t lower clay patches. Dig them instead. (This allows the resource to keep renewing).</li>
+              <li>Don't lower clay patches. Dig them instead.</li>
               <li>Only items which are either inside your claim or claimed by you, belong to you. All items outside of a claim essentially belong to no-one. Beware!</li>
             </ol>
         </p>
         <p class="copy">
-          <span class="heavy point">Role Play:</span><br><br>
+          <span class="heavy point">Role Play</span><br><br>
             <ol>
               <li>
-                It is preferred that you RP both in General Chat and in person. This gives a little bit more immersion to the game.
+                Please try and adhere to RP both in General chat and in character. This gives a little bit more immersion to the game. Feel free to use (( double brackets )) or something similar to break RP.
               </li>
             </ol>
         </p>
         <p class="copy">
-          <span class="heavy point">Rules of Engagement:</span><br><br>
+          <span class="heavy point">Rules of Engagement</span><br><br>
             <ol>
               <li>While outside of a claim, you are allowed to kill freely.</li>
-              <li>If a player yields, they are allowed to offer you something in return for their life. This may be a trade, or a deal, etc. If you accept this, you are not allowed to kill them. If they do not offer you anything or you do not accept, then you may kill them.</li>
-              <li> You may attack people inside their claims, with the following rules:
+              <li>It's frowned upon to kill people who yield, though outside of claim, it is allowed.</li>
+              <li>You may attack people inside their claims, with the following rules:
                   <ul class="bg-orange">
-                    <li>If they yield, you are not to kill them, and must accept what they offer. A player must offer you something. If they refuse, you may kill them.</li>
-                    <li>If they are sat down, and therefore AFK, you may not engage them.</li>
-                    <li>If you engaged them outside of their claim and chased them into it, the regular rules apply, not the claim rules.</li>
-                    <li>You must announce that you are there to conduct an attack</li>
+                    <li>You must announce in General that you wish to attack a claim and give at least one minute before the attack</li>
+                    <li>If they yield, you are not to kill them</li>
+                    <li>If they are sat down, and therefore AFK, you may not engage them</li>
+                    <li>If you engaged them outside of their claim and chased them into it, the regular rules apply, not the claim rules</li>
+                    <li>If a player leaves their claim, then General rules apply, not claim rules</li>
                   </ul>
               </li>
               <li>You are not to attack horses on claims, unless you are engaged in combat with someone mounted on a horse, then you may attack that horse.</li>
               <li>
-                "The Colosseum" should be a totally safe zone. Unless taking part in an event, no one should engage another player within this area.
+                "The Colosseum" should be a totally safe zone. Unless taking part in an event, no one should engage another player within this area. To do so may anger the Gods.
               </li>
             </ol>
         </p>
         <p class="copy">
-          <span class="heavy point">Griefing:</span><br><br>
+          <span class="heavy point">Griefing</span><br><br>
             <ol>
-              <li>It’s not much fun when all you do is die constantly. Unfair, repeated killing and raiding of the same settlement counts as griefing.</li>
-              <li>No spawn camping.</li>
-              <li>No combat logging.</li>
+              <li>It's not much fun when all you do is die constantly. Repeated killing and raiding of the same settlement counts as griefing.</li>
+              <li>No spawn camping – come on, be nice.</li>
+              <li>No combat logging – come on, be brave.</li>
             </ol>
         </p>
       </div>
@@ -81,16 +83,16 @@
         <a id="policy"></a>
         <h2 class="secondary-header--dark">Our server <span class="orange">policy</span></h2>
         <p class="copy">
-          <span class="heavy point">What you can expect from us:</span><br><br>
-            We are all in the same boat, so you can expect<span class="heavy orange"> active GMs without the abuse of power</span>. GM powers will only be used for resolving issues and enforcing the rules. We are open to suggestions, so if you think you have good idea, which may improve player experience on the server, we are all ears!
+          <span class="heavy point">What you can expect from us</span><br><br>
+            We are all in the same boat, so you can expect <span class="heavy orange">active GMs without the abuse of power</span>. GM powers will only be used for resolving issues and enforcing the rules. We are open to suggestions, so if you think you have good idea, which may improve player experience on the server, we are all ears!
         </p>
         <p class="copy">
-          <span class="heavy point">Server size:</span><br><br>
-          The more the merrier! We have <span class="heavy orange">initially opened the server with 16 available player slots.</span> Once we can gauge how interested people are in staying on and actively playing, and find that it’s popular, we will increase the player slots to 32, and then 64 if necessary.
+          <span class="heavy point">Server size</span><br><br>
+          The more the merrier! We have <span class="heavy orange">initially opened the server with 12 available player slots.</span> Once we can gauge how interested people are in our server, and if we find that there is demand, we will increase the player slots to 32, and then 64 if necessary. This will be done once everyone is in bed, sleeping, hopefully.
         </p>
         <p class="copy">
-          <span class="heavy point">Player abuse:</span><br><br>
-          We want the server to be a nice place, and we want people to enjoy the server.  The gameplay should be as natural as possible, whilst still being enjoyable. You might encounter a few villains, bandits and beggars, but <span class="heavy orange">we won’t accept outright, hurtful abuse or bullying outside of RP.</span>
+          <span class="heavy point">Player abuse</span><br><br>
+          We want the server to be a nice place, and we want people to enjoy the server. The gameplay should be as natural as possible, whilst still being enjoyable. You might encounter a few villains, bandits and beggars, but <span class="heavy orange">we won't accept outright, hurtful abuse or bullying outside of RP.</span>
         </p>
       </div>
     </div>

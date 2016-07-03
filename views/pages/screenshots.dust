@@ -19,7 +19,8 @@
   <div class="container">
     <div class="row">
       <div class="twelve columns">
-        <h2 class="secondary-header--dark">The building of <span class="orange">Bastille.</span></h2>
+        <h2 class="secondary-header--dark">The building of <span class="orange">Bastille</span>.</h2>
+        <p class="copy">The founding guild of the King's Reach – the reverent <span class="orange">Guild of Bastille</span>. What once started as a pile of logs and some mounds of dirt is slowly rising to become a keep worthy of patronage.</p>
       </div>
     </div>
     <div class="row">
@@ -155,7 +156,7 @@
       </div>
     </div>
     <div class="row">
-      <p class="copy">Want to show off your claim? Why not <a href="/contact" class="anchor">submit your screenshots</a> to the GMs?.<br></p>
+      <p class="copy">Want to show off your claim? Why not <a href="/contact" class="anchor">submit your screenshots</a> on Slack?<br></p>
     </div>
   </div>
 </main>
