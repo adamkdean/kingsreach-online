@@ -149,9 +149,6 @@ header {
 	border-bottom: 1px solid $grey;
   &--home {
       @extend .masthead;
-			img {
-
-			}
       background: url("../img/LIF1.jpg") 50% 0 repeat fixed $black;
   }
 	&--rules {
@@ -164,7 +161,7 @@ header {
   }
 	&--screenshots {
       @extend .masthead;
-      background: url("../img/LIF4.jpg") 50% 0 repeat fixed $black;
+      background: url("../img/LIF5.jpg") 50% 0 repeat fixed $black;
   }
 	&--contact {
       @extend .masthead;
