@@ -3,13 +3,13 @@
 {<content}
 
 <!-- == Masthead == -->
-<div class="masthead--home" data-type="background" data-speed="3"></div>
+<div class="masthead--screenshots" data-type="background" data-speed="3"></div>
 
 <div class="title">
   <div class="container">
-    <h1 class="primary-header--light align-center display">Screenshots</h1>
+    <h1 class="primary-header--dark align-center display">Screenshots</h1>
     <div class="display-none">
-      <p class="primary-header--light align-center">Screen shots</p>
+      <p class="primary-header--dark align-center">Screen shots</p>
     </div>
   </div>
 </div>
@@ -150,6 +150,54 @@
             <img data-original="public/img/screenshots/bastille/thumbnail/16.jpg" class="lazy" alt="King's Reach">
             <noscript>
               <img src="public/img/screenshots/bastille/thumbnail/16.jpg" alt="King's Reach">
+            </noscript>
+          </div>
+        </a>
+        <a href="public/img/screenshots/bastille/17.jpg" data-lightbox="roadtrip">
+          <div class="screenshots-item">
+            <img data-original="public/img/screenshots/bastille/thumbnail/17.jpg" class="lazy" alt="King's Reach">
+            <noscript>
+              <img src="public/img/screenshots/bastille/thumbnail/17.jpg" alt="King's Reach">
+            </noscript>
+          </div>
+        </a>
+        <a href="public/img/screenshots/bastille/18.jpg" data-lightbox="roadtrip">
+          <div class="screenshots-item">
+            <img data-original="public/img/screenshots/bastille/thumbnail/18.jpg" class="lazy" alt="King's Reach">
+            <noscript>
+              <img src="public/img/screenshots/bastille/thumbnail/18.jpg" alt="King's Reach">
+            </noscript>
+          </div>
+        </a>
+        <a href="public/img/screenshots/bastille/19.jpg" data-lightbox="roadtrip">
+          <div class="screenshots-item">
+            <img data-original="public/img/screenshots/bastille/thumbnail/19.jpg" class="lazy" alt="King's Reach">
+            <noscript>
+              <img src="public/img/screenshots/bastille/thumbnail/19.jpg" alt="King's Reach">
+            </noscript>
+          </div>
+        </a>
+        <a href="public/img/screenshots/bastille/20.jpg" data-lightbox="roadtrip">
+          <div class="screenshots-item">
+            <img data-original="public/img/screenshots/bastille/thumbnail/20.jpg" class="lazy" alt="King's Reach">
+            <noscript>
+              <img src="public/img/screenshots/bastille/thumbnail/20.jpg" alt="King's Reach">
+            </noscript>
+          </div>
+        </a>
+        <a href="public/img/screenshots/bastille/21.jpg" data-lightbox="roadtrip">
+          <div class="screenshots-item">
+            <img data-original="public/img/screenshots/bastille/thumbnail/21.jpg" class="lazy" alt="King's Reach">
+            <noscript>
+              <img src="public/img/screenshots/bastille/thumbnail/21.jpg" alt="King's Reach">
+            </noscript>
+          </div>
+        </a>
+        <a href="public/img/screenshots/bastille/22.jpg" data-lightbox="roadtrip">
+          <div class="screenshots-item">
+            <img data-original="public/img/screenshots/bastille/thumbnail/22.jpg" class="lazy" alt="King's Reach">
+            <noscript>
+              <img src="public/img/screenshots/bastille/thumbnail/22.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>

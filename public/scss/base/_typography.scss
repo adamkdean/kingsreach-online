@@ -20,6 +20,9 @@ body {
         @extend .primary-header ;
         color: $white;
     }
+    @include mq($mob--lrg){
+      font-size: 70px;
+    }
 }
 
 .secondary-header {
