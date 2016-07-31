@@ -19,185 +19,209 @@
   <div class="container">
     <div class="row">
       <div class="twelve columns">
-        <h2 class="secondary-header--dark">The building of <span class="orange">Bastille</span>.</h2>
-        <p class="copy">The founding guild of the King's Reach – the reverent <span class="orange">Guild of Bastille</span>. What once started as a pile of logs and some mounds of dirt is slowly rising to become a keep worthy of patronage.</p>
+        <h2 class="secondary-header--dark">Server <span class="orange"> Screenshots</span></h2>
+        <p class="copy">Below is a variety of screenshot taken by and of the denizens of the server. Do you have screenshots to share? Send the on <a href="/contact" class="anchor">Slack</a>!</p>
       </div>
     </div>
     <div class="row">
       <div class="screenshots">
-        <a href="public/img/screenshots/bastille/01.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/01.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/01.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/01.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/01.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/01.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/02.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/02.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/02.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/02.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/02.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/02.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/03.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/03.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/03.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/03.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/03.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/03.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/04.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/04.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/04.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/04.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/04.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/04.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
         <a href="public/img/screenshots/bastille/05.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/05.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/05.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/05.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/05.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/06.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/06.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/06.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/06.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/06.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/06.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/07.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/07.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/07.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/07.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/07.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/07.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/08.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/08.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/08.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/08.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/08.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/08.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/09.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/09.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/09.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/09.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/09.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/09.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/10.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/10.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/10.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/10.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/10.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/10.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/11.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/11.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/11.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/11.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/11.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/11.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/12.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/12.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/12.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/12.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/12.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/12.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/13.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/13.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/13.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/13.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/13.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/13.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/14.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/14.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/14.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/14.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/14.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/14.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/15.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/15.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/15.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/15.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/15.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/15.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/16.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/16.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/16.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/16.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/16.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/16.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/17.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/17.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/17.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/17.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/17.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/17.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/18.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/18.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/18.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/18.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/18.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/18.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/19.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/19.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/19.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/19.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/19.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/19.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/20.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/20.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/20.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/20.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/20.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/20.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/21.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/21.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/21.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/21.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/21.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/21.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
-        <a href="public/img/screenshots/bastille/22.jpg" data-lightbox="roadtrip">
+        <a href="public/img/screenshots/22.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
-            <img data-original="public/img/screenshots/bastille/thumbnail/22.jpg" class="lazy" alt="King's Reach">
+            <img data-original="public/img/screenshots/thumbnail/22.jpg" class="lazy" alt="King's Reach">
             <noscript>
-              <img src="public/img/screenshots/bastille/thumbnail/22.jpg" alt="King's Reach">
+              <img src="public/img/screenshots/thumbnail/22.jpg" alt="King's Reach">
+            </noscript>
+          </div>
+        </a>
+        <a href="public/img/screenshots/23.jpg" data-lightbox="roadtrip">
+          <div class="screenshots-item">
+            <img data-original="public/img/screenshots/thumbnail/23.jpg" class="lazy" alt="King's Reach">
+            <noscript>
+              <img src="public/img/screenshots/thumbnail/23.jpg" alt="King's Reach">
+            </noscript>
+          </div>
+        </a>
+        <a href="public/img/screenshots/24.jpg" data-lightbox="roadtrip">
+          <div class="screenshots-item">
+            <img data-original="public/img/screenshots/thumbnail/24.jpg" class="lazy" alt="King's Reach">
+            <noscript>
+              <img src="public/img/screenshots/thumbnail/24.jpg" alt="King's Reach">
+            </noscript>
+          </div>
+        </a>
+        <a href="public/img/screenshots/25.jpg" data-lightbox="roadtrip">
+          <div class="screenshots-item">
+            <img data-original="public/img/screenshots/thumbnail/25.jpg" class="lazy" alt="King's Reach">
+            <noscript>
+              <img src="public/img/screenshots/thumbnail/25.jpg" alt="King's Reach">
             </noscript>
           </div>
         </a>
