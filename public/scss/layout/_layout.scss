@@ -168,6 +168,10 @@ header {
   }
 	&--screenshots {
       @extend .masthead;
+      background: url("../img/LIF6.jpg") 50% 0 repeat fixed $black;
+  }
+	&--money {
+      @extend .masthead;
       background: url("../img/LIF5.jpg") 50% 0 repeat fixed $black;
   }
 	&--contact {
