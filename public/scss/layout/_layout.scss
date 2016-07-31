@@ -56,6 +56,10 @@ header {
   background: $primaryColor;
   color: $secondaryColor;
 	margin-bottom: 350px;
+
+	&.no-margin-bottom {
+		margin-bottom: none !important;
+	}
 }
 
 .nav-toggle {
@@ -208,6 +212,9 @@ footer {
 			margin: 0 auto;
 		}
 	}
+	&.display-none {
+		display: none !important;
+	}
 }
 
 // Sitewide styles
@@ -293,11 +300,16 @@ ol {
 }
 
 .map {
-	position: relative;
-	overflow: hidden;
-	width: 100%;
-	float: left;
-	top: -350px;
+	position: fixed;
+	top: 72px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+
+	iframe {
+		width: 100%;
+		height: 100%;
+	}
 }
 
 // Misc
