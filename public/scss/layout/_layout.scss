@@ -114,9 +114,9 @@ header {
 	width: 50%;
 	margin: 0 auto;
 	padding: 0.5%;
-	overflow: hidden;
 	float: left;
 	position: relative;
+	overflow: hidden;
 	@include mq($tab--lrg){
 		width: 100%;
 		text-align: center;
@@ -290,6 +290,14 @@ ol {
 			width: 100%;
 		}
 	}
+}
+
+.map {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	float: left;
+	top: -350px;
 }
 
 // Misc
