@@ -18,10 +18,11 @@
     <div class="container">
       <a href="#" class="nav-toggle"><img src="public/img/nav-icon.png" alt="Menu"></a>
       <div class="nav-item">
-        <nav class="navigation">
+        <nav class="navigation" id="navigation">
           <a href="/">Home</a>
           <a href="/rules">Rules</a>
           <a href="/events">Events</a>
+          <a href="/map">Map</a>
           <a href="/screenshots">Screenshots</a>
           <a href="/contact">Contact</a>
         </nav>
