@@ -18,7 +18,10 @@
       <div class="twelve columns">
         <h2 class="secondary-header--dark">Welcome, traveller, to the <span class="orange">King's Reach!</span></h2>
         <p class="copy">
-          On June 10th, 1030, our story began. Two brave adventurers arrived on the King's Reach from their distant homelands and began to settle the untamed and untapped peninsula. After much travel and toil, they pioneered the islands very first settlement: the <a href="/screenshots" class="anchor">Guild of Bastille</a>. To this very day, the Guild continues to grow and thrive, drawing it's momentum from hard work and the rich surroundings. Do you think you have what it takes to set out and pioneer your very own settlement in the land's vastly, untapped wilds?
+          On 10 June 1030, our story began. Two brave adventurers arrived on the King's Reach from their distant homelands and began to settle the untamed and untapped peninsula. After much travel and toil, they pioneered the islands very first settlement - the <a href="/screenshots" class="anchor">Guild of Bastille</a>.
+        </p>
+        <p class="copy">
+          As of 8 March 1031, eight more guilds have been established, and more travellers arrive every day. From the grand castle in the Duchy of Vaugnberg to the wide spanning road systems of Bjorgvin, there are many sights to be seen. Do you think you have what it takes to set out and pioneer your very own settlement in the land's vastly, untapped wilds?
         </p>
         <img data-original="public/img/embarked.jpg" class="scale-img lazy" alt="Kings Reach">
         <noscript>
@@ -33,7 +36,8 @@
       <div class="six columns">
         <h3 class="tertiary-header--dark underline">Bag a Title</h3>
         <p class="copy">
-          Life is Feudal, and like any feudal system there is a natural order of status here on the server! Are you a Duke? Have you managed to acquire enough support to become a Lord? Reckon you should be King and rule over these lands? Titles of nobily are an easy way to bag a nice sum of gold.
+          Life is Feudal, and like any feudal system there is a natural order of status here on the server!<br><br>
+          Will you be the Lord of a guild? Will you be a duke and rule over one of the fourteen duchies? Perhaps you have what it takes to unite enough Dukes to become the King?
         </p>
       </div>
       <div class="six columns">
@@ -53,7 +57,7 @@
       <div class="six columns">
         <h3 class="tertiary-header--light underline--light">Monetary System</h3>
         <p class="copy">
-          We have introduced a Gold based <a href="/monetary-system" class="anchor">monetary system</a> to the server. Each item will have a recommended market value, however this is merely a guideline. Traders are free to set their own prices, so you may need to barter for your much needed resources! There are many ways to accumulate gold, including stating a claim, winning an event, or even gaining a noble title.
+          We have introduced a Gold based <a href="/money" class="anchor">monetary system</a> to the server. There are no standard prices for goods or services. Traders are free to set their own prices, so you may need to barter for your much needed resources! There are many ways to accumulate gold, including stating a claim, winning an event, or even gaining a noble title.
         </p>
       </div>
     </div>
@@ -61,7 +65,7 @@
       <div class="six columns">
         <h3 class="tertiary-header--dark underline">Weekly Events</h3>
         <p class="copy">
-          We eventually intend to introduce a <a href="/events" class="anchor">weekly event</a> to the server, likely to be held on a Friday or Saturday evening. These events, usually combat based, will take place at The Colosseum. The Colosseum is a totally safe zone, where players can chill and enjoy watching the combatants tear each other apart. There are prizes to be won... think you've got what it takes?
+          We eventually intend to introduce a <a href="/events" class="anchor">weekly event</a> to the server, likely to be held on a Friday or Saturday evening. These events, usually combat based, will take place at The Colosseum. The Colosseum (will be) a totally safe zone, where players can chill and enjoy watching the combatants tear each other apart. There are prizes to be won... think you've got what it takes?
         </p>
       </div>
       <div class="six columns">

@@ -29,6 +29,8 @@
               <li>Don't claim clay patches. Any claims which encompass a clay patch will be removed.</li>
               <li>Players must not attack settlements within the first 24 hours after a monument is built. You should announce when your monument is erected and state that you wish to begin your 24 hour grace period.</li>
               <li>As a bonus, for every claim erected, the King's Bank will issue 100 Gold Coins to the Guild Leader!</li>
+              <li>The first person to erect a claim within a duchy will automatically gain the title of Duke/Duchess.</li>
+              <li><em>We are still working on usurping rules for duchies. Got an idea? <a href="/contact">Let us know</a></em></li>
             </ol>
         </p>
         <p class="copy">
@@ -45,6 +47,9 @@
               <li>
                 Please try and adhere to RP both in Global chat and in character. This gives a little bit more immersion to the game. Feel free to use (( double brackets )) or something similar to break RP.
               </li>
+              <li>
+                It would be nice if you could use an RP friendly name. We are going to outright ban non-RP names, but if your name is <em>Xx Milf Hunter xX</em> then we may change it to Milfred Hunter.
+              </li>
             </ol>
         </p>
         <p class="copy">
@@ -54,7 +59,6 @@
               <li>It's frowned upon to kill people who yield, though outside of claim, it is allowed.</li>
               <li>You may attack people inside their claims, with the following rules:
                   <ul class="bg-orange">
-                    <li>You must announce in Global that you wish to attack a claim and give at least one minute before the attack</li>
                     <li>If they yield, you are not to kill them</li>
                     <li>If they are sat down, and therefore AFK, you may not engage them</li>
                     <li>If you engaged them outside of their claim and chased them into it, the regular rules apply, not the claim rules</li>
@@ -62,9 +66,7 @@
                   </ul>
               </li>
               <li>You are not to attack horses on claims, unless you are engaged in combat with someone mounted on a horse, then you may attack that horse.</li>
-              <li>
-                "The Colosseum" should be a totally safe zone. Unless taking part in an event, no one should engage another player within this area. To do so may anger the Gods.
-              </li>
+              <li>"The Colosseum" should be a totally safe zone. Unless taking part in an event, no one should engage another player within this area. To do so may anger the Gods.</li>
             </ol>
         </p>
         <p class="copy">
@@ -92,7 +94,7 @@
         </p>
         <p class="copy">
           <span class="heavy point">Player abuse</span><br><br>
-          We want the server to be a nice place, and we want people to enjoy the server. The gameplay should be as natural as possible, whilst still being enjoyable. You might encounter a few villains, bandits and beggars, but <span class="heavy orange">we won't accept outright, hurtful abuse or bullying outside of RP.</span>
+          We want the server to be a nice place, and we want people to enjoy the server. The gameplay should be as natural as possible, whilst still being enjoyable. You might encounter a few villains, bandits, and beggars, but <span class="heavy orange">we won't accept outright, hurtful abuse or bullying outside of RP.</span>
         </p>
       </div>
     </div>

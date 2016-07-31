@@ -115,12 +115,17 @@ header {
 }
 
 .nav-item {
-	width: 50%;
-	margin: 0 auto;
-	padding: 0.5%;
 	float: left;
 	position: relative;
 	overflow: hidden;
+	&.nav-left {
+		@extend .nav-item;
+		width: 65.5%;
+	}
+	&.nav-right {
+		@extend .nav-item;
+		margin-top: 2.5%;
+	}
 	@include mq($tab--lrg){
 		width: 100%;
 		text-align: center;
@@ -135,12 +140,10 @@ header {
 }
 
 .ip {
-	line-height: 40px;
-	text-align: right;
+	padding: 0;
+	margin: 0;
 	@include mq($tab--lrg){
 		text-align: center;
-		padding: 0;
-		margin: 0;
 	}
 }
 
@@ -323,3 +326,6 @@ ol {
 	.display-none { display: block;}
 	.display { display: none;}
 }
+
+em { font-style: italic; }
+strong { font-weight: bold; }
