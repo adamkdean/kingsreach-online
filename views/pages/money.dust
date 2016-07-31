@@ -1,0 +1,38 @@
+{>"layouts/default"/}
+
+{<content}
+
+<!-- == Masthead == -->
+<div class="masthead--home" data-type="background" data-speed="3"></div>
+
+<div class="title">
+  <div class="container">
+    <h1 class="primary-header--light align-center">Monetary System</h1>
+  </div>
+</div>
+
+<!-- == Main content == -->
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h2 class="secondary-header--dark">Monetary System</h2>
+        <p class="copy"><em>Last updated: 31 July 2016, 18:40 UTC</em></p>
+        <p class="copy">
+          There are a number of ways to get Gold Pieces (GP). If you erect a monument, starting a guild, you are entitled to a 100 GP stipend which you can collect from <em>Ulfric Irongrip, Duke of Bastille</em>. If you settle the first guild in an unclaimed duchy, you will become Duke/Duchess of that duchy and will be entitled to a further stipend of 100 GP.
+        </p>
+        <p class="copy">
+          How you use your gold is up to you. Trading for goods, hiring workers, or financing a private army. That's up to you. There are no standard prices for goods so price them based on supply and demand, or greed perhaps.
+        </p>
+        <p class="copy">
+          GP issued to guilds so far: <strong>900</strong>.<br>
+          GP issued to duchy holders so far: <strong>0</strong>.<br>
+          GP reserved for duchy holders to claim: <strong>1,400</strong>.<br>
+          Total GP issued: <strong>900</strong>.
+        </p>
+      </div>
+    </div>
+  </div>
+</main>
+
+{/content}
