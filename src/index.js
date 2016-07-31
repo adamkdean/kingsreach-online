@@ -54,7 +54,8 @@ app.get('/monetary-system', async (req, res) => {
   res.render('pages/monetary-system', baseViewModel);
 });
 app.get('/map', async (req, res) => {
-  res.render('pages/map', baseViewModel);
+  const viewModel = Object.assign({}, baseViewModel, { fixed: true });
+  res.render('pages/map', viewModel);
 });
 
 //

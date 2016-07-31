@@ -1,9 +1,9 @@
-{>"pages/layout"/}
+{>"layouts/default"/}
 
 {<content}
 
   <div class="map">
     <iframe src="http://www.lifmaps.com/?map=3064" width="100%" height="1000px"></iframe>
   </div>
-    
+
 {/content}

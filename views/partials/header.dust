@@ -14,7 +14,7 @@
 <body>
 
 <!-- == Header == -->
-<header>
+<header class="{?fixed}no-margin-bottom{/fixed}">
     <div class="container">
       <a href="#" class="nav-toggle"><img src="public/img/nav-icon.png" alt="Menu"></a>
       <div class="nav-item">

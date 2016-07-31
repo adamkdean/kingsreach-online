@@ -1,6 +1,6 @@
 
 <!-- == Footer == -->
-<footer>
+<footer class="{?fixed}display-none{/fixed}">
   <div class="container">
     <div class="footer-items">
       <img data-original="public/img/kings-reach-ico-orange.png" class="lazy" alt="Kings Reach">
