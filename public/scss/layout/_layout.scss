@@ -147,12 +147,58 @@ header {
 	}
 }
 
+.donate {
+	position: absolute;
+	width: 200px;
+	height: 250px;
+	overflow: hidden;
+	top: 25px;
+	margin-top: 25px;
+	right: 10px;
+	z-index: -1;
+	img {
+		width: 80%;
+	}
+	@include mq($tab--lrg){
+		width: 170px;
+		width: 170px;
+		right: 0;
+		img {
+			width: 85%;
+		}
+	}
+	@include mq($mob--lrg){
+		width: 150px;
+		height: 150px;
+	}
+}
+
+.donate-anchor {
+	position: absolute;
+	width: 200px;
+	height: 250px;
+	overflow: hidden;
+	top: 25px;
+	margin-top: 25px;
+	right: 10px;
+	z-index: 0;
+	@include mq($tab--lrg){
+		width: 170px;
+		width: 170px;
+		right: 0;
+	}
+	@include mq($mob--lrg){
+		width: 150px;
+		height: 150px;
+	}
+}
+
 .masthead {
   width: 100%;
   float: right;
   min-height: 700px;
   position: absolute;
-  z-index: -1;
+  z-index: -2;
 	border-bottom: 1px solid $grey;
   &--home {
       @extend .masthead;
@@ -172,7 +218,7 @@ header {
   }
 	&--money {
       @extend .masthead;
-      background: url("../img/LIF5.jpg") 50% 0 repeat fixed $black;
+      background: url("../img/LIF7.jpg") 50% 0 repeat fixed $black;
   }
 	&--contact {
       @extend .masthead;
@@ -312,6 +358,10 @@ ol {
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
+	z-index: -2;
+	@include mq($mob--lrg){
+		top: 98px;
+	}
 
 	iframe {
 		width: 100%;
