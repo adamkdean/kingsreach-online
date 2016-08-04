@@ -35,3 +35,9 @@
       </div>
     </div>
 </header>
+
+<a href="https://www.patreon.com/kingsreach" class="donate-anchor" title="Donate to the server!"></a>
+
+<div class="donate">
+    <img src="public/img/donate.png" alt="Kings Reach" />
+</div>
