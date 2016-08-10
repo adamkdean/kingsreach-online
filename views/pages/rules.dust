@@ -20,9 +20,32 @@
 <main>
   <div class="container">
     <div class="row">
+      <h2 class="secondary-header--dark">Server <span class="orange">rules</span></h2>
+      <div class="five columns">
+        <fieldset>
+          <p class="copy point">
+            Keepers of <span class="heavy orange">the realm</span> (GMs):
+          </p>
+          <p class="copy">
+              Ulfric Irongrip<br>
+              Kari Uværsskyen
+          </p>
+        </fieldset>
+      </div>
+      <div class="five columns">
+        <fieldset>
+          <p class="copy point">
+            Wardens of <span class="heavy orange">the realm</span> (Moderators):
+          </p>
+          <p class="copy">
+            Marta Dagfinn
+          </p>
+        </fieldset>
+      </div>
+    </div>
+    <div class="row">
       <div class="twelve columns">
         <a id="rules"></a>
-        <h2 class="secondary-header--dark">Server <span class="orange">rules</span></h2>
         <p class="copy">
           <span class="heavy point">Claims</span><br><br>
             <ol>
@@ -45,10 +68,13 @@
           <span class="heavy point">Role Play</span><br><br>
             <ol>
               <li>
-                Please try and adhere to RP both in Global chat and in character. This gives a little bit more immersion to the game. Feel free to use (( double brackets )) or something similar to break RP.
+                You must ensure that you choose an RP friendly name. If your name does not comply, then you may be asked to change it. A GM will assist you with this.
               </li>
               <li>
-                It would be nice if you could use an RP friendly name. We aren't going to outright ban non-RP names, but if your name is <em>Xx Milf Hunter xX</em> then we may change it to Milfred Hunter.
+                Your name must not be offensive, rude, or contain anything that is out of keeping with the server.
+              </li>
+              <li>
+                Please try and adhere to RP both in Global chat and in character. This gives a little bit more immersion to the game. Feel free to use (( double brackets )) or something similar to break RP.
               </li>
             </ol>
         </p>
@@ -70,8 +96,9 @@
             </ol>
         </p>
         <p class="copy">
-          <span class="heavy point">Griefing</span><br><br>
+          <span class="heavy point">Conduct</span><br><br>
             <ol>
+              <li>Building objects to scale walls (known as laddering) is not against the rules, but you must ensure these constructions are physically sound and realistic. Floating logs will not be tolerated, nor will climbing upon bark boxes.</li>
               <li>It's not much fun when all you do is die constantly. Repeated killing and raiding of the same settlement counts as griefing.</li>
               <li>No spawn camping – come on, be nice.</li>
               <li>No combat logging – come on, be brave.</li>
@@ -90,7 +117,7 @@
         </p>
         <p class="copy">
           <span class="heavy point">Server size</span><br><br>
-          The more the merrier! We have <span class="heavy orange">initially opened the server with 32 available player slots.</span> Once we can gauge how interested people are in our server, and if we find that there is demand, we will increase the player slots to 64 if necessary. This will be done once everyone is in bed, sleeping, hopefully.
+          The more the merrier! We <span class="heavy orange">initially opened the server with 32 available player slots.</span> Since we have had quite a bit of interest in the server, we have now updated the number of available slots to 64!
         </p>
         <p class="copy">
           <span class="heavy point">Player abuse</span><br><br>
