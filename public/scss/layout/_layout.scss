@@ -81,6 +81,9 @@ header {
   padding: 5% 0;
   display: inline-block;
   text-align: center;
+	@include mq($tab--lrg){
+		padding: 1.5%;
+	}
   a {
     text-decoration: none;
     margin-right: $medium;
@@ -93,6 +96,9 @@ header {
 		&:hover {
 			cursor: pointer;
 			color: $tertiaryColor;
+		}
+		@include mq($tab--lrg){
+			margin-right: 15px;
 		}
 		@include mq($mob--lrg){
 			display: block;
@@ -124,18 +130,21 @@ header {
 	}
 	&.nav-right {
 		@extend .nav-item;
-		margin-top: 1%;
+		margin-top: 1.5%;
+		@include mq($tab--lrg){
+			margin-bottom: 0.5%;
+		}
 	}
 	@include mq($tab--lrg){
 		width: 100%;
 		text-align: center;
-		padding: 0;
-	}
-	@include mq($mob--lrg){
-		margin-top: 10px;
+		padding-top: 1.5%;
 		&:last-child{
 			border-top: 1px solid $secondaryColor;
 		}
+	}
+	@include mq($mob--lrg){
+		margin-top: 10px;
 	}
 }
 
@@ -168,6 +177,7 @@ header {
 		}
 	}
 	@include mq($mob--lrg){
+		top: 50px;
 		width: 150px;
 		height: 150px;
 	}
@@ -188,6 +198,7 @@ header {
 		right: 0;
 	}
 	@include mq($mob--lrg){
+		top: 50px;
 		width: 150px;
 		height: 150px;
 	}
@@ -280,7 +291,7 @@ footer {
 	width: 100%;
 	z-index: -1;
 	@include mq($mob--lrg){
-		top: 200px;
+		top: 250px;
 	}
 }
 
