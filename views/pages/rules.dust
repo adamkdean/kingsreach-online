@@ -38,7 +38,8 @@
             Wardens of <span class="heavy orange">the realm</span> (Moderators):
           </p>
           <p class="copy">
-            Marta Dagfinn
+            Marta Dagfinn<br>
+            Llywelyn ap Gruffudd
           </p>
         </fieldset>
       </div>
@@ -50,16 +51,15 @@
           <span class="heavy point">Claims</span><br><br>
             <ol>
               <li>Don't claim clay patches. Any claims which encompass a clay patch will be removed.</li>
-              <li>Players must not attack settlements within the first 24 hours after a monument is built. You should announce when your monument is erected and state that you wish to begin your 24 hour grace period.</li>
-              <li>As a bonus, for every claim erected, the King's Bank will issue 100 Gold Pieces to the Guild Leader!</li>
-              <li>The first person to erect a claim within a duchy will automatically gain the title of Duke/Duchess.</li>
+              <li>For every claim erected, the King's Bank will issue 100 Gold Pieces to the Guild Leader!</li>
+              <li>The first person to erect a claim within a duchy will gain the right to claim the title of Duke/Duchess.</li>
               <li><em>We are still working on usurping rules for duchies.</em> Got an idea? <a href="/contact" class="anchor">Let us know</a></li>
             </ol>
         </p>
         <p class="copy">
           <span class="heavy point">Resources</span><br><br>
             <ol>
-              <li>Uproot your stumps so that new trees can grow back.</li>
+              <li>Uproot your stumps so that new trees can grow back. No really, uproot them.</li>
               <li>Don't lower clay patches. Dig them instead.</li>
               <li>Only items which are either inside your claim or claimed by you, belong to you. All items outside of a claim essentially belong to no-one. Beware!</li>
             </ol>
@@ -75,6 +75,14 @@
               </li>
               <li>
                 Please try and adhere to RP both in Global chat and in character. This gives a little bit more immersion to the game. Feel free to use (( double brackets )) or something similar to break RP.
+              </li>
+            </ol>
+        </p>
+        <p class="copy">
+          <span class="heavy point">Characters</span><br><br>
+            <ol>
+              <li>
+                You must only have one character on the server. If you have more than one, a GM will find you.
               </li>
             </ol>
         </p>
@@ -99,7 +107,7 @@
           <span class="heavy point">Conduct</span><br><br>
             <ol>
               <li>Building objects to scale walls (known as laddering) is not against the rules, but you must ensure these constructions are physically sound and realistic. Floating logs will not be tolerated, nor will climbing upon bark boxes.</li>
-              <li>It's not much fun when all you do is die constantly. Repeated killing and raiding of the same settlement counts as griefing.</li>
+              <li>It's not much fun when all you do is die constantly. Repeated killing and raiding of the same settlement counts as griefing. Please leave 24 hour between each raid.</li>
               <li>No spawn camping – come on, be nice.</li>
               <li>No combat logging – come on, be brave.</li>
             </ol>
