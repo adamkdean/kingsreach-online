@@ -45,6 +45,7 @@ useSimpleRoute('/events', 'pages/events', baseViewModel)
 useSimpleRoute('/money', 'pages/money', baseViewModel)
 useSimpleRoute('/screenshots', 'pages/screenshots', baseViewModel)
 useSimpleRoute('/contact', 'pages/contact', baseViewModel)
+useSimpleRoute('/basilmod', 'pages/basilmod', baseViewModel)
 
 app.get('/map', async (req, res) => {
   const viewModel = Object.assign({}, baseViewModel, { fixed: true })

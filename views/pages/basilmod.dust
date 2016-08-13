@@ -1,0 +1,36 @@
+{>"layouts/default"/}
+
+{<content}
+
+<!-- == Masthead == -->
+<div class="masthead--home" data-type="background" data-speed="3"></div>
+
+<div class="title">
+  <div class="container">
+    <h1 class="primary-header--light align-center">BasilMod</h1>
+  </div>
+</div>
+
+<!-- == Main content == -->
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h2 class="secondary-header--dark">We are <span class="orange">BasilMod</span> ready</h2>
+        <p class="copy">The server uses BasilMod to enhance gameplay. This is both a server-side and a client-side mod.</p>
+        <p class="copy">
+          You are not require to install the client-side mod, but it is highly recommended that you do.
+        </p>
+        <p class="copy">
+          It is very simple, no file editing requried!<br><br>
+          1. Download <a href="https://www.dropbox.com/s/agmiss0v00efer5/basilmodloader.zip?dl=0" class="anchor">basilmodloader.zip</a> archive.<br>
+          2. Place basilmodloader.zip into the game folder, i.e. to "Life is Feudal Your Own\basilmodloader.zip".<br>
+          * You must not unpack archive! *<br>
+          3. Play LiF:YO.
+        </p>
+      </div>
+    </div>
+  </div>
+</main>
+
+{/content}
