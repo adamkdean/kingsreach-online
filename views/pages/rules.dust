@@ -13,7 +13,8 @@
 
 <nav class="rules align-center">
   <a href="#rules" class="anchor">Rules</a>&nbsp;|&nbsp;
-  <a href="#policy" class="anchor">Policy</a>
+  <a href="#policy" class="anchor">Policy</a>&nbsp;|&nbsp;
+  <a href="#complaints" class="anchor">Complaints</a>
 </nav>
 
 <!-- == Main content == -->
@@ -27,8 +28,9 @@
             Keepers of <span class="heavy orange">the realm</span> (GMs):
           </p>
           <p class="copy">
-              Ulfric Irongrip<br>
-              Kari Uværsskyen
+            Ulfric Realmkeeper<br>
+            Sigvald Realmkeeper<br>
+            Afastr Realmkeeper
           </p>
         </fieldset>
       </div>
@@ -39,7 +41,8 @@
           </p>
           <p class="copy">
             Marta Dagfinn<br>
-            Llywelyn ap Gruffudd
+            Llywelyn ap Gruffudd<br>
+            Kari Uværsskyen
           </p>
         </fieldset>
       </div>
@@ -47,6 +50,34 @@
     <div class="row">
       <div class="twelve columns">
         <a id="rules"></a>
+        <p class="copy">
+          <span class="heavy point">Conduct</span><br><br>
+            <ol>
+              <li>Building objects to scale walls (known as laddering) is not against the rules, but you must ensure these constructions are physically sound and realistic. Floating logs will not be tolerated, nor will climbing upon bark boxes.</li>
+              <li>It's not much fun when all you do is die constantly. Repeated killing and raiding of the same settlement counts as griefing. <span class="orange heavy" style="text-decoration:underline">Please leave 24 hours between each raid.</span> If you are caught raiding the same settlement more than once in 24 hours, you will receive a Raidban. If you continue to grief like this, <span class="orange heavy">you risk receiving a permanent Steam ban.</span>.</li>
+              <li>Being outright offensive in chat or over the microphone counts as griefing. Please keep things civil.</li>
+              <li>No spawn camping – come on, be nice.</li>
+              <li>No combat logging – come on, be brave.</li>
+              <li>Sitting down whilst being attacked on your claim to avoid the attack will not be upheld in the rules of engagement</li>
+            </ol>
+        </p>
+        <p class="copy">
+          <span class="heavy point">Rules of engagement</span><br><br>
+            <ol>
+              <li>While outside of a claim, you are allowed to kill freely.</li>
+              <li>It's frowned upon to kill people who yield, though outside of claim, it is allowed.</li>
+              <li>You may attack people inside their claims, with the following rules:
+                  <ul class="bg-orange">
+                    <li>If they yield, you are not to kill them</li>
+                    <li>If they are sat down, and therefore AFK, you may not engage them</li>
+                    <li>If you engaged them outside of their claim and chased them into it, the regular rules apply, not the claim rules</li>
+                    <li>If a player leaves their claim, then general rules apply, not claim rules</li>
+                  </ul>
+              </li>
+              <li>You are not to attack horses on claims, unless you are engaged in combat with someone mounted on a horse, then you may attack that horse.</li>
+              <!-- <li>"The Colosseum" should be a totally safe zone. Unless taking part in an event, no one should engage another player within this area. To do so may anger the Gods.</li> -->
+            </ol>
+        </p>
         <p class="copy">
           <span class="heavy point">Claims</span><br><br>
             <ol>
@@ -86,32 +117,6 @@
               </li>
             </ol>
         </p>
-        <p class="copy">
-          <span class="heavy point">Rules of Engagement</span><br><br>
-            <ol>
-              <li>While outside of a claim, you are allowed to kill freely.</li>
-              <li>It's frowned upon to kill people who yield, though outside of claim, it is allowed.</li>
-              <li>You may attack people inside their claims, with the following rules:
-                  <ul class="bg-orange">
-                    <li>If they yield, you are not to kill them</li>
-                    <li>If they are sat down, and therefore AFK, you may not engage them</li>
-                    <li>If you engaged them outside of their claim and chased them into it, the regular rules apply, not the claim rules</li>
-                    <li>If a player leaves their claim, then general rules apply, not claim rules</li>
-                  </ul>
-              </li>
-              <li>You are not to attack horses on claims, unless you are engaged in combat with someone mounted on a horse, then you may attack that horse.</li>
-              <li>"The Colosseum" should be a totally safe zone. Unless taking part in an event, no one should engage another player within this area. To do so may anger the Gods.</li>
-            </ol>
-        </p>
-        <p class="copy">
-          <span class="heavy point">Conduct</span><br><br>
-            <ol>
-              <li>Building objects to scale walls (known as laddering) is not against the rules, but you must ensure these constructions are physically sound and realistic. Floating logs will not be tolerated, nor will climbing upon bark boxes.</li>
-              <li>It's not much fun when all you do is die constantly. Repeated killing and raiding of the same settlement counts as griefing. Please leave 24 hour between each raid.</li>
-              <li>No spawn camping – come on, be nice.</li>
-              <li>No combat logging – come on, be brave.</li>
-            </ol>
-        </p>
       </div>
     </div>
     <hr>
@@ -130,6 +135,21 @@
         <p class="copy">
           <span class="heavy point">Player abuse</span><br><br>
           We want the server to be a nice place, and we want people to enjoy the server. The gameplay should be as natural as possible, whilst still being enjoyable. You might encounter a few villains, bandits, and beggars, but <span class="heavy orange">we won't accept outright, hurtful abuse or bullying outside of RP.</span>
+        </p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="twelve columns">
+        <a id="complaints"></a>
+        <h2 class="secondary-header--dark">Complaints <span class="orange">procedure</span></h2>
+        <p class="copy">
+          <span class="heavy point">How to report</span><br><br>
+            We strive to make the server a fun place for everyone. However, sometimes, issues will inevitably arise in game. If you have an issue or a complaint please <span class="heavy orange">screenshot and post it in the #issues channel on <a class="anchor" href="/contact">Slack</a></span> along with a description of your issue. This helps the GM's and Moderators to more effectively deal with the problem.
+        </p>
+        <p class="copy">
+          <span class="heavy point">What we can do</span><br><br>
+          We prefer to warn and Raidban people. However, <span class="orange heavy">if the rules are repeatedly and intentionally broken, players risk receiving permanent Steam bans</span>. A Steam ban bans a player by their Steam account, which is essentially a perma-ban from the server.
         </p>
       </div>
     </div>
