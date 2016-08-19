@@ -25,6 +25,14 @@
     </div>
     <div class="row">
       <div class="screenshots">
+        <a href="public/img/screenshots/28.jpg" data-lightbox="roadtrip">
+          <div class="screenshots-item">
+            <img data-original="public/img/screenshots/thumbnail/28.jpg" class="lazy" alt="King's Reach">
+            <noscript>
+              <img src="public/img/screenshots/thumbnail/28.jpg" alt="King's Reach">
+            </noscript>
+          </div>
+        </a>
         <a href="public/img/screenshots/27.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
             <img data-original="public/img/screenshots/thumbnail/27.jpg" class="lazy" alt="King's Reach">
