@@ -399,7 +399,17 @@ ol {
 	z-index: 99;
 	background: white;
 	padding: 2%;
+	border: 1px solid $grey;
+	border-top-left-radius: 50px;
+		-moz-border-top-left-radius: 50px;
+		-webkit-border-top-left-radius: 50px;
+		-o-border-top-left-radius: 50px;
+		border-bottom-right-radius: 50px;
+			-moz-bottom-right-radius: 50px;
+			-webkit-bottom-right-radius: 50px;
+			-o-bottom-right-radius: 50px;
 	.close {
+		color: $black;
 		float: right;
 		font-family: $primaryFont;
 		text-decoration: none;
