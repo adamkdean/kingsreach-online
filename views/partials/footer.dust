@@ -20,6 +20,7 @@
 <script src="public/js/scripts/lightbox-init.js"></script>
 <script src="public/js/scripts/smoothscroll.js"></script>
 <script src="public/js/scripts/parallax.js"></script>
+<script src="public/js/scripts/popup.js"></script>
 <script src="public/js/scripts/responsive-nav.js"></script>
 <script src="public/js/scripts/lazyload-init.js"></script>
 
