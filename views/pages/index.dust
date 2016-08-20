@@ -2,6 +2,21 @@
 
 {<content}
 
+
+<!-- == Popup == -->
+<div class="opacity-dark"></div>
+
+<div class="popup">
+  <a href="#" class="close">X</a>
+  <h2 class="secondary-header">
+    Server is currently <span class="orange">down for maintenance</span>
+  </h2>
+  <p class="copy">
+    We have recently had to switch service providers! Please bear with us whilst we get the server back up and running. The new IP address will be updated on the website soon. Thanks for playing on the server!<br><br>
+    <small><em>(updated 20/08/2016 22:10 UTC)</em></small>
+  </p>
+</div>
+
 <!-- == Masthead == -->
 <div class="masthead--home" data-type="background" data-speed="3"></div>
 

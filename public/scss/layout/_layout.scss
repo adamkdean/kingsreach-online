@@ -380,6 +380,35 @@ ol {
 	}
 }
 
+.opacity-dark {
+	position: fixed;
+	background: $black;
+	opacity: 0.5;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 98;
+}
+
+.popup {
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%, 0);
+	top: 40%;
+	z-index: 99;
+	background: white;
+	padding: 2%;
+	.close {
+		float: right;
+		font-family: $primaryFont;
+		text-decoration: none;
+		&:hover {
+			color: $orange;
+		}
+	}
+}
+
 // Misc
 
 .bg-grey {background: $grey;}
