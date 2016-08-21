@@ -17,10 +17,25 @@
     <div class="row">
       <div class="twelve columns">
         <h2 class="secondary-header--dark">Upcoming <span class="orange">events</span></h2>
-        <p class="copy">The next big event is "the opening of the server"!<br></p>
-        <p class="copy">
-          In the future, we hope to create a special area for events on the server – maybe called "The Colosseum" – where events can take place. This could be sparring, jousting, or even drunken brawls. Once more people have migrated to the King's Reach, we'll arrange some events.
-        </p>
+
+        <div class="events">
+          {?events}
+            {#events}
+              <div class="event">
+                <h3 class="tertiary-header--dark">{title}</h3>
+                {?when}<p class="when">{when}</p>{/when}
+                {?content}
+                  {#content}
+                    <p class="copy">{.}</p>
+                  {/content}
+                {/content}
+              </div>
+            {/events}
+          {:events}
+            No events listed at this time.
+          {/events}
+        </div>
+
         <p class="copy">
           Have an idea for an event? Get on <a href="/contact" class="anchor">Slack</a>, our community chat platform, and let us know!
         </p>

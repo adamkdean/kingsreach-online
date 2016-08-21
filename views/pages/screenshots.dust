@@ -25,6 +25,11 @@
     </div>
     <div class="row">
       <div class="screenshots">
+        <p class="copy">There are currently no screenshots due to server migration.</p>
+      </div>
+    </div>
+    <!-- <div class="row">
+      <div class="screenshots">
         <a href="public/img/screenshots/28.jpg" data-lightbox="roadtrip">
           <div class="screenshots-item">
             <img data-original="public/img/screenshots/thumbnail/28.jpg" class="lazy" alt="King's Reach">
@@ -250,7 +255,7 @@
           </div>
         </a>
       </div>
-    </div>
+    </div> -->
     <div class="row">
       <p class="copy">Want to show off your claim? Why not <a href="/contact" class="anchor">submit your screenshots</a> on Slack?<br></p>
     </div>

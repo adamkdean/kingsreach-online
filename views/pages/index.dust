@@ -2,9 +2,8 @@
 
 {<content}
 
-
 <!-- == Popup == -->
-<div class="opacity-dark"></div>
+<!-- <div class="opacity-dark"></div>
 
 <div class="popup">
   <a href="#" class="close">X</a>
@@ -15,7 +14,7 @@
     We have recently had to switch service providers! Please bear with us whilst we get the server back up and running. The new IP address will be updated on the website soon. In the meantime, jump on <a href="/contact" class="anchor">Slack</a> to join the conversation. Thanks for playing on the server!<br><br>
     <small><em>(updated 20/08/2016 22:59 UTC)</em></small>
   </p>
-</div>
+</div> -->
 
 <!-- == Masthead == -->
 <div class="masthead--home" data-type="background" data-speed="3"></div>
@@ -33,13 +32,16 @@
       <div class="twelve columns">
         <h2 class="secondary-header--dark">Welcome, traveller, to the <span class="orange">King's Reach!</span></h2>
         <p class="copy">
-          On 10 June 1030, the story began. Two brave adventurers arrived on the King's Reach from their distant homelands and began to settle the untamed and untapped peninsula. After much travel and toil, they pioneered the island's very first settlement – the <a href="/map" class="anchor">Guild of Bastille</a>.
+         <span>The First Era</span> began on 10 June 1030 with two brave adventurers, who arrived on the shores of what was to become the King's Reach from their distant homelands and began to settle the untamed and untapped peninsula. After much travel and toil, they pioneered the island's very first settlement.
         </p>
         <p class="copy">
-          By 22 June 1031, almost twenty guilds had been established, and more travellers arrived every day. From the grand castle in the Duchy of Vaugnberg to the wide spanning road systems of Bjorgvin, there were many new sights to be seen. Not all guilds had survived the first year.
+          Within a year, more than 20 guilds had been established within the King's Reach. Alas, disaster was to strike, and the denizens of the King's Reach had to flee, to fresh and untouched lands.
         </p>
         <p class="copy">
-          Do you think you have what it takes to set out and pioneer your very own settlement in the land's vastly, untapped wilds?
+          And so begins The Second Era of the King's Reach, on 18 August 1031, Ulfric Realmkeeper, Keeper of the Realm, arrives on the shores of what is to become the Second King's Reach. The fresh and tranquil lands are reminiscent of the First King's Reach, with forests filled with animals, fertile land, and harsh mountains. It will not be long before others follow.
+        </p>
+        <p class="copy">
+          Are you ready to join the denizens of the King's Reach, and turn this wilderness into a civilised land?
         </p>
         <img data-original="public/img/embarked.jpg" class="scale-img lazy" alt="Kings Reach">
         <noscript>
@@ -47,7 +49,7 @@
         </noscript>
       </div>
       <p class="copy">
-        We are a role playing, Life is Feudal server with PVP elements and the skill cap set at 3000. We are also <a href="/basilmod" class="anchor">BasilMod ready</a>. Become a master craftsman, king of the peasants or even challenge the founding hierarchy for dominance! Provided that you meet the requirements, you could become a trading hub or even bag yourself a title of nobility. The sky is the limit! Interested in joining? Check out our rules <a href="/rules" class="anchor">here</a>.
+        We are an RP Life is Feudal server with PVP elements, with the skill cap set at 3000. We are also <a href="/basilmod" class="anchor">BasilMod ready</a>. Become a master craftsman, king of the peasants or even challenge the founding hierarchy for dominance! Provided that you meet the requirements, you could become a trading hub or even bag yourself a title of nobility. The sky is the limit! Interested in joining? Check out our rules <a href="/rules" class="anchor">here</a>.
       </p>
     </div>
     <div class="row">
@@ -83,7 +85,7 @@
       <div class="six columns">
         <h3 class="tertiary-header--dark underline">Weekly Events</h3>
         <p class="copy">
-          We eventually intend to introduce a <a href="/events" class="anchor">weekly event</a> to the server, likely to be held on a Friday or Saturday evening. These events, usually combat based, will take place at The Colosseum. The Colosseum (will be) a totally safe zone, where players can chill and enjoy watching the combatants tear each other apart. There are prizes to be won... think you've got what it takes?
+          From Ducal Coronations to Royal Weddings, Duchy Tournaments to Nighttime Horse Racing, we have it all. Weekly events will be held, organised both by the Keepers of the Realm and the players alike. Do you have what it takes to be champion of jousting?
         </p>
       </div>
       <div class="six columns">
@@ -96,7 +98,7 @@
     <div class="row">
       <div class="twelve columns">
         <p class="copy">
-           Interested in becoming a GM or part of the <a href="https://github.com/kingsreach/kingsreach-online/blob/master/CONTRIBUTING.md" class="anchor" target="_blank">development</a> team?
+           Interested in becoming part of the moderation or <a href="https://github.com/kingsreach/kingsreach-online/blob/master/CONTRIBUTING.md" class="anchor" target="_blank">development</a> team?
         </p>
         <p class="copy">
           Get <a href="/contact" class="anchor">invovled in the discussion</a> on Slack.

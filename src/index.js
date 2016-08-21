@@ -8,6 +8,7 @@ const path = require('path')
 const morgan = require('morgan')
 const scssMiddleware = require('./middleware/scss')
 const staticMiddleware = require('./middleware/static')
+const events = require('../data/events.json')
 
 const workdir = process.cwd()
 const httpPort = process.env.HTTP_PORT || 3000
@@ -41,11 +42,15 @@ const useSimpleRoute = (path, page, viewModel) => {
 useSimpleRoute('/', 'pages/index', baseViewModel)
 useSimpleRoute('/index', 'pages/index', baseViewModel)
 useSimpleRoute('/rules', 'pages/rules', baseViewModel)
-useSimpleRoute('/events', 'pages/events', baseViewModel)
 useSimpleRoute('/money', 'pages/money', baseViewModel)
 useSimpleRoute('/screenshots', 'pages/screenshots', baseViewModel)
 useSimpleRoute('/contact', 'pages/contact', baseViewModel)
 useSimpleRoute('/basilmod', 'pages/basilmod', baseViewModel)
+
+app.get('/events', async (req, res) => {
+  const viewModel = Object.assign({}, baseViewModel, { events })
+  res.render('pages/events', viewModel)
+})
 
 app.get('/map', async (req, res) => {
   const viewModel = Object.assign({}, baseViewModel, { fixed: true })
