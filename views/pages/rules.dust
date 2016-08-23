@@ -29,7 +29,8 @@
           </p>
           <p class="copy">
             Ulfric Realmkeeper (Lead GM)<br>
-            (to be updated soon)
+            Kari Realmkeeper<br>
+            Sigvald Realmkeeper
           </p>
         </fieldset>
       </div>
@@ -47,6 +48,9 @@
     </div>
     <div class="row">
       <div class="twelve columns">
+        <p class="copy">
+          Rule clarification coming soon. Please check back later.
+        </p>
         <a id="rules"></a>
         <p class="copy">
           <span class="heavy point">Conduct</span><br><br>
@@ -66,6 +70,7 @@
             <ol>
               <li>While outside of a claim, you are allowed to kill freely.</li>
               <li>Killing people who yield is strictly forbidden.</li>
+              <li>All attacks must have an RP basis.</li>
               <li>You may attack people inside their claims, with the following rules:
                   <ul class="bg-orange">
                     <li>If they are sat down, and therefore AFK, you may not engage them</li>
