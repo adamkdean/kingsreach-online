@@ -20,7 +20,7 @@
     <div class="row">
       <div class="twelve columns">
         <h2 class="secondary-header--dark">Server <span class="orange"> Screenshots</span></h2>
-        <p class="copy">Below is a variety of screenshot taken by and of the denizens of the server. Do you have screenshots to share? Send the on <a href="/contact" class="anchor">Slack</a>!</p>
+        <p class="copy">Below is a variety of screenshot taken by and of the denizens of the server. Do you have screenshots to share? Send the on <a href="/contact" class="anchor">Discord</a>!</p>
       </div>
     </div>
     <div class="row">
@@ -84,7 +84,7 @@
       </div>
     </div>
     <div class="row">
-      <p class="copy">Want to show off your claim? Why not <a href="/contact" class="anchor">submit your screenshots</a> on Slack?<br></p>
+      <p class="copy">Want to show off your claim? Why not <a href="/contact" class="anchor">submit your screenshots</a> on Discord?<br></p>
     </div>
   </div>
 </main>
