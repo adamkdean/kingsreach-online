@@ -24,13 +24,7 @@
           If you haven't used Discord before, no worries, it's super simple. There are desktop &amp; mobile clients which you can install and a web interface that you can use from your browser. To get started, sign up using the widget below to receive an invite.
         </p>
         <p class="align-center">
-          <iframe
-              src="https://discordapp.com/widget?id=218315908362403840&theme=dark"
-              width="350"
-              height="500"
-              allowtransparency="true"
-              frameborder="0"
-          </iframe>
+          <iframe src="https://discordapp.com/widget?id=218315908362403840&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
         </p>
 
         <h3 class="tertiary-header--dark">Got a problem?</h3>
