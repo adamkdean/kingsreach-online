@@ -21,11 +21,11 @@
           The easiest way to get in touch with a GM or a Moderator is through Discord, but that's not all we want to use Discord for. We want to provide a great community, and sometimes to do this we need to talk outside of the game. That's why we've setup a Discord server with lots of channels such as #trade, #events, and #recruitment, etc.
         </p>
         <p class="copy">
-          If you haven't used Discord before, no worries, it's super simple. There are desktop &amp; mobile clients which you can install and a web interface that you can use from your browser. To get started, sign up using the widget below to receive an invite.
+          If you haven't used Discord before, no worries, it's super simple. There are desktop &amp; mobile clients which you can install and a web interface that you can use from your browser. To get started, <a href="https://discord.gg/9barcnR">sign up via this link</a>.
         </p>
-        <p class="align-center">
+        <!--<p class="align-center">
           <iframe src="https://discordapp.com/widget?id=218315908362403840&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
-        </p>
+        </p>-->
 
         <h3 class="tertiary-header--dark">Got a problem?</h3>
         <p class="copy">If you have a problem, please come and let us know in the <span class="orange">#help</span> channel.</p>
