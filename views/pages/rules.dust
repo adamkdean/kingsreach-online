@@ -28,11 +28,11 @@
             Keepers of <span class="heavy orange">the realm</span> (GMs):
           </p>
           <p class="copy">
-            Ulfric Realmkeeper (Lead GM)<br>
-            Kari Realmkeeper (Map)<br>
-            Sigvald Realmkeeper (Ingame issues)<br>
-            Eilwen Realmkeeper (Ingame issues)<br>
-            Frigga Realmkeeper (Justice, Mod leader)
+            Ulfric Realmkeeper (Leader)<br>
+            Kari Realmkeeper (Claims)<br>
+            Sigvald Realmkeeper (Issues)<br>
+            Eilwen Realmkeeper (Issues)<br>
+            Frigga Realmkeeper (Justice)
           </p>
         </fieldset>
       </div>
@@ -57,42 +57,65 @@
         <p class="copy">
           <span class="heavy point">Conduct</span><br><br>
             <ol>
-              <li>Always be respectful to Wardens (moderators) and Keepers (GM) of the Realm</li>
+              <li>Always be respectful to Moderators/GMs.</li>
               <li>It's not much fun when all you do is die constantly. Repeated killing and raiding of the same settlement counts as griefing.</li>
               <li>Building objects to scale walls (known as laddering) is strictly forbidden.</li>
-              <li>Using horses and/or pole vaulting to breach walls is strictly forbidden.</li>
-              <li>Being outright offensive in chat or over the microphone counts as griefing. Please keep things civil.</li>
-              <li>No spawn camping – come on, be nice.</li>
-              <li>No combat logging – come on, be brave.</li>
+              <li>Using horses (with or without dirt mounds) to breach walls is strictly forbidden.</li>
+              <li>Using the ability pounce (with or without dirt mounds) to breach walls is strictly forbidden.</li>
+              <li>Being outright offensive in chat or over the microphone counts as griefing. Don't do it.</li>
+              <li>No spawn camping.</li>
+              <li>No combat logging.</li>
               <li>Sitting down whilst being attacked on your claim to avoid the attack will not be upheld in the rules of engagement</li>
             </ol>
         </p>
         <p class="copy">
           <span class="heavy point">Rules of engagement</span><br><br>
             <ol>
-              <li>While outside of a claim, you are allowed to kill freely.</li>
-              <li>Killing people who yield is strictly forbidden.</li>
-              <li>All attacks must have an RP basis.</li>
+              <li>While outside of a claim, you are allowed to kill freely except if they yield.</li>
+              <li>Killing anyone who yields is strictly forbidden.</li>
+              <li>All attacks must have an RP basis. This means you should have an RP reason for your actions.</li>
               <li>You may attack people inside their claims, with the following rules:
                   <ul class="bg-orange">
-                    <li>If they are sat down, and therefore AFK, you may not engage them</li>
+                    <li>If they are sat down prior to attack, and therefore AFK, you may not engage them</li>
                     <li>If you initiated combat against them outside of their claim and chased them into it, the regular rules apply, not the claim rules</li>
                     <li>If a player leaves their claim, then general rules apply, not claim rules</li>
                   </ul>
               </li>
               <li>You are not to attack horses on claims, unless you are engaged in combat with someone mounted on a horse, then you may attack that horse.</li>
-              <!-- <li>"The Colosseum" should be a totally safe zone. Unless taking part in an event, no one should engage another player within this area. To do so may anger the Gods.</li> -->
+              <li>The Island is a sacred place. Unless taking part in an event, no one should engage another player within this area. To do so may anger the Gods.</li> -->
+            </ol>
+        </p>
+        <p class="copy">
+          <span class="heavy point">Banditry</span><br><br>
+            <ol>
+              <li>Banditry is allowed on this server. However, there are some restrictions.</li>
+              <li>All actions on the server must be believable from a historic point of view.</li>
+              <li>Bandits did not live in fortified towns, fortresses, or castles.</li>
+              <li>Anyone identifying as bandits and RP-ing as bandits, must not enclose their claim with any kind of walls.</li>
+              <li>Any bandit group currently living in a castle (as of 1st Sep 2016) must either cease banditry or remove the walls.</li>
+            </ol>
+        </p>
+        <p class="copy">
+          <span class="heavy point">Role Play</span><br><br>
+            <ol>
+              <li>This is an RP server first. If an RP rule conflicts with a PVP rule, the RP rule takes priority.</li>
+              <li>Global chat is used only to ask for help from a GM or Moderator, keep meta talk to Discord.</li>
+              <li>All interactions with other players should be RP in some form or other.</li>
+              <li>If someone is RP'ing, you must not go OOC (Out of Character).</li>
+              <li>Please keep all communications friendly and fair.</li>
+              <li>As stated above, all attacks must has have an RP reason.</li>
+              <li>Bandits did not live in castles. If you're a bandit, you may not live in a fortress. See above.</li>
             </ol>
         </p>
         <p class="copy">
           <span class="heavy point">Claims</span><br><br>
             <ol>
-              <li>The island is reserved for the Events Centre. You must not build there.</li>
+              <li>The Island is reserved for the Events Centre. You must not build there.</li>
               <li>The main mountain is off limits for claims. This is to ensure that everyone has access to its rich resources.</li>
               <li>Don't claim clay patches. Any claims which encompass a clay patch will be removed.</li>
-              <li>Until Aug 27 2016, for every claim erected, the King's Bank will issue 100 Gold Pieces to the Guild Leader!</li>
+              <!-- <li>Until Aug 27 2016, for every claim erected, the King's Bank will issue 100 Gold Pieces to the Guild Leader!</li> -->
               <li>The first person to erect a claim within a duchy will gain the right to claim the title of Duke/Duchess.</li>
-              <li>With the support of four other Dukes/Duchesses, you may become King of those folks</li>
+              <li>With the support of three other Dukes/Duchesses, you may become King of those folks</li>
               <li><em>We are still working on usurping rules for duchies.</em> Got an idea? <a href="/contact" class="anchor">Let us know</a></li>
             </ol>
         </p>
@@ -101,16 +124,6 @@
             <ol>
               <li>Uproot your stumps so that new trees can grow back. No really, uproot them.</li>
               <li>Only items which are either inside your claim or claimed by you, belong to you. All items outside of a claim essentially belong to no-one. Beware!</li>
-            </ol>
-        </p>
-        <p class="copy">
-          <span class="heavy point">Role Play</span><br><br>
-            <ol>
-              <li>This is an RP server, please treat it as such.</li>
-              <li>Global chat is used only to ask for help from a GM or Moderator, keep meta talk to Discord.</li>
-              <li>All interactions with other players should be RP in some form or other.</li>
-              <li>If someone is RP'ing, you must not go OOC (Out of Character).</li>
-              <li>Please keep all communications friendly and fair.</li>
             </ol>
         </p>
         <p class="copy">
