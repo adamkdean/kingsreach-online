@@ -48,7 +48,7 @@ useSimpleRoute('/contact', 'pages/contact', baseViewModel)
 useSimpleRoute('/basilmod', 'pages/basilmod', baseViewModel)
 
 app.get('/events', async (req, res) => {
-  const viewModel = Object.assign({}, baseViewModel, { events })
+  const viewModel = Object.assign({}, baseViewModel, { events: events.reverse() })
   res.render('pages/events', viewModel)
 })
 
