@@ -87,6 +87,26 @@
             </ol>
         </p>
         <p class="copy">
+          <span class="heavy point">War</span><br><br>
+            <ol>
+              <li>The Lord of a Guild may sign the War Charter, declaring it in #war channel, entering his guild into War.</li>
+              <li>All King's automatically sign the War Charter and cannot withdraw.</li>
+              <li>Any Lord wishing to withdraw from the War Charter must declare it in #war channel. It will take three days before they leave it.</li>
+              <li>Once a Lord has signed the War Charter, he cannot withdraw for seven days.</li>
+              <li>All guilds that have signed the War Charter will be able to engage with each other under the following rules:</li>
+              <ul class="bg-orange">
+                <li>Climbing walls with ladders is allowed</li>
+                <li>Looting corpses is allowed.</li>
+                <li>There is no restriction on how often you may attack.</li>
+                <li>Killing players who have yielded is allowed</li>
+                <li>Climbing walls with horse jumping or pole vaulting is FORBIDDEN.</li>
+              </ul>
+              <li>These rules apply ONLY to, and among, the guilds who have signed the War Charter, denoted on the map by (WAR) in the name.</li>
+              <li>Guilds that have not signed the War Charter are exempt and remain under the protection of the regular rules.</li>
+              <li>Finally, your guild is not at war until a GM or Moderator has updated the map and told you you are now at war.</li>              
+            </ol>
+        </p>
+        <p class="copy">
           <span class="heavy point">Banditry</span><br><br>
             <ol>
               <li>Banditry is allowed on this server. However, there are some restrictions.</li>
