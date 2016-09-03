@@ -7,5 +7,12 @@
       "Are you holding an event? Let us know and we'll advertise it here.",
       "Thanks! – Ulfric"
     ]
+  },
+  {
+    "title": "Server reboot",
+    "when": "03/09/2016 22:00 server time",
+    "content": [
+      "Server reboot + map update + titles + claim gold."
+    ]
   }
 ]
