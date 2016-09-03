@@ -24,12 +24,14 @@
         <p class="copy">
           How you use your gold is up to you. Trading for goods, hiring workers, or financing a private army. That's up to you. There are no standard prices for goods so price them based on supply and demand, or greed perhaps.
         </p>
+        <!--
         <p class="copy">
           Guilds on the server so far: <strong class="orange">25</strong>.<br>
           GP issued to guilds so far: <strong class="orange">2500</strong>.<br>
           GP issued to duchy holders so far: <strong class="orange">0</strong>.<br>
           Total GP issued: <strong class="orange">2500</strong>.
         </p>
+        -->
       </div>
     </div>
   </div>
