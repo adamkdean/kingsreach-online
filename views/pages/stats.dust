@@ -1,0 +1,26 @@
+{>"layouts/default"/}
+
+{<content}
+
+<!-- == Masthead == -->
+<div class="masthead--misc" data-type="background" data-speed="3"></div>
+
+<div class="title">
+  <div class="container">
+    <h1 class="primary-header--light align-center">Realm Statistics</h1>
+  </div>
+</div>
+
+<!-- == Main content == -->
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h2 class="secondary-header--dark">Realm <span class="orange">Statistics</span></h2>
+        <p class="copy">TODO</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+{/content}

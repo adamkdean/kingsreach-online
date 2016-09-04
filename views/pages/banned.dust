@@ -1,0 +1,46 @@
+{>"layouts/default"/}
+
+{<content}
+
+<!-- == Masthead == -->
+<div class="masthead--misc" data-type="background" data-speed="3"></div>
+
+<div class="title">
+  <div class="container">
+    <h1 class="primary-header--light align-center">Banned Players</h1>
+  </div>
+</div>
+
+<!-- == Main content == -->
+<main>
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h2 class="secondary-header--dark">Banned <span class="orange">Players</span></h2>
+        <table class="stats-table">
+          <thead>
+            <tr>
+              <th>Player name</th>
+              <th>Steam ban?</th>
+              <th>Permanent?</th>
+            </tr>
+          </thead>
+          <tbody>
+        {#bannedCharacters}
+          <tr>
+            <td>{.PlayerName}</td>
+            <td>YES</td>
+            <td>YES</td>
+          </tr>
+        {/bannedCharacters}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row">
+      <p class="smallprint">This list updates every 5 minutes. It does not contain raid bans.</p>
+    </div>
+  </div>
+</main>
+
+{/content}

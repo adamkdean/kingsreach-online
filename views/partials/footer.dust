@@ -9,6 +9,9 @@
       </noscript>
     </div>
     <h3 class="tertiary-header--light align-center no-margin">King's Reach</h3>
+    <p class="footer-links">
+      <a href="/banned">banned players</a> | <a href="/killboard">killboard</a> | <a href="/money">money</a> | <a href="/basilmod">basilmod</a>
+    </p>
   </div>
 </footer>
 <div class="post-footer{?fixed}display-none{/fixed}"></div>

@@ -1,17 +1,17 @@
 /* ==================================Layout======================================== */
 
 * {
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-o-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
 }
 
 // Reset
 
 /*
- 	Reset
-	http://meyerweb.com/eric/tools/css/reset/
+   Reset
+  http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -29,20 +29,20 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
   background: $lightgrey;
 }
 
@@ -51,157 +51,157 @@ body {
 header {
   width: 100%;
   float: right;
-	overflow: hidden;
-	z-index: 10;
+  overflow: hidden;
+  z-index: 10;
   background: url("../img/dark_wall.png");
   color: $secondaryColor;
-	margin-bottom: 350px;
+  margin-bottom: 350px;
 
-	&.no-margin-bottom {
-		margin-bottom: none !important;
-	}
+  &.no-margin-bottom {
+    margin-bottom: none !important;
+  }
 }
 
 .nav-toggle {
-	display: none;
-	width: 100%;
-	text-align: center;
-	font-family: $primaryFont;
-	color: $secondaryColor;
-	text-decoration: none;
-	text-transform: uppercase;
-	padding: 20px 0 0 0;
-	cursor: pointer;
-	@include mq($mob--lrg){
-		display: block;
-	}
+  display: none;
+  width: 100%;
+  text-align: center;
+  font-family: $primaryFont;
+  color: $secondaryColor;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 0 0 0;
+  cursor: pointer;
+  @include mq($mob--lrg){
+    display: block;
+  }
 }
 
 .navigation {
   padding: 5% 0;
   display: inline-block;
   text-align: center;
-	@include mq($tab--lrg){
-		padding: 1.5%;
-	}
+  @include mq($tab--lrg){
+    padding: 1.5%;
+  }
   a {
     text-decoration: none;
     margin-right: $medium;
-		color: $secondaryColor;
-		font-family: $primaryFont;
-		font-size: 15px;
-		font-weight: 600;
-		text-transform: uppercase;
-		line-height: 10px;
-		&:hover {
-			cursor: pointer;
-			color: $tertiaryColor;
-		}
-		@include mq($tab--lrg){
-			margin-right: 15px;
-		}
-		@include mq($mob--lrg){
-			display: block;
-			margin-top: 20px;
-			margin-right: 0;
-		}
-		@include mq($mob--lrg){
-			&:first-child{
-				margin: 0;
-			}
-		}
+    color: $secondaryColor;
+    font-family: $primaryFont;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 10px;
+    &:hover {
+      cursor: pointer;
+      color: $tertiaryColor;
+    }
+    @include mq($tab--lrg){
+      margin-right: 15px;
+    }
+    @include mq($mob--lrg){
+      display: block;
+      margin-top: 20px;
+      margin-right: 0;
+    }
+    @include mq($mob--lrg){
+      &:first-child{
+        margin: 0;
+      }
+    }
   }
-	.active {
-		color: $tertiaryColor;
-	}
-	@include mq($mob--lrg){
-		display: none;
-		padding: 2% 0;
-	}
+  .active {
+    color: $tertiaryColor;
+  }
+  @include mq($mob--lrg){
+    display: none;
+    padding: 2% 0;
+  }
 }
 
 .nav-item {
-	float: left;
-	position: relative;
-	overflow: hidden;
-	&.nav-left {
-		@extend .nav-item;
-		width: 65.5%;
-	}
-	&.nav-right {
-		@extend .nav-item;
-		margin-top: 1.5%;
-		@include mq($tab--lrg){
-			margin-bottom: 0.5%;
-		}
-	}
-	@include mq($tab--lrg){
-		width: 100%;
-		text-align: center;
-		padding-top: 1.5%;
-		&:last-child{
-			border-top: 1px solid $secondaryColor;
-		}
-	}
-	@include mq($mob--lrg){
-		margin-top: 10px;
-	}
+  float: left;
+  position: relative;
+  overflow: hidden;
+  &.nav-left {
+    @extend .nav-item;
+    width: 65.5%;
+  }
+  &.nav-right {
+    @extend .nav-item;
+    margin-top: 1.5%;
+    @include mq($tab--lrg){
+      margin-bottom: 0.5%;
+    }
+  }
+  @include mq($tab--lrg){
+    width: 100%;
+    text-align: center;
+    padding-top: 1.5%;
+    &:last-child{
+      border-top: 1px solid $secondaryColor;
+    }
+  }
+  @include mq($mob--lrg){
+    margin-top: 10px;
+  }
 }
 
 .ip {
-	padding: 0;
-	margin: 0;
-	@include mq($tab--lrg){
-		text-align: center;
-	}
+  padding: 0;
+  margin: 0;
+  @include mq($tab--lrg){
+    text-align: center;
+  }
 }
 
 .donate {
-	position: absolute;
-	width: 200px;
-	height: 250px;
-	overflow: hidden;
-	top: 25px;
-	margin-top: 25px;
-	right: 10px;
-	z-index: -1;
-	img {
-		width: 80%;
-	}
-	@include mq($tab--lrg){
-		width: 170px;
-		width: 170px;
-		right: 0;
-		img {
-			width: 85%;
-		}
-	}
-	@include mq($mob--lrg){
-		top: 50px;
-		width: 150px;
-		height: 150px;
-	}
+  position: absolute;
+  width: 200px;
+  height: 250px;
+  overflow: hidden;
+  top: 25px;
+  margin-top: 25px;
+  right: 10px;
+  z-index: -1;
+  img {
+    width: 80%;
+  }
+  @include mq($tab--lrg){
+    width: 170px;
+    width: 170px;
+    right: 0;
+    img {
+      width: 85%;
+    }
+  }
+  @include mq($mob--lrg){
+    top: 50px;
+    width: 150px;
+    height: 150px;
+  }
 }
 
 .donate-anchor {
-	position: absolute;
-	width: 200px;
-	height: 250px;
-	overflow: hidden;
-	top: 25px;
-	margin-top: 25px;
-	right: 10px;
-	z-index: 0;
-	@include mq($tab--lrg){
-		width: 170px;
-		width: 170px;
-		right: 0;
-	}
-	@include mq($mob--lrg){
-		top: 50px;
-		width: 150px;
-		height: 150px;
-	}
+  position: absolute;
+  width: 200px;
+  height: 250px;
+  overflow: hidden;
+  top: 25px;
+  margin-top: 25px;
+  right: 10px;
+  z-index: 0;
+  @include mq($tab--lrg){
+    width: 170px;
+    width: 170px;
+    right: 0;
+  }
+  @include mq($mob--lrg){
+    top: 50px;
+    width: 150px;
+    height: 150px;
+  }
 }
 
 .masthead {
@@ -210,240 +210,258 @@ header {
   min-height: 700px;
   position: absolute;
   z-index: -2;
-	border-bottom: 1px solid $grey;
+  border-bottom: 1px solid $grey;
   &--home {
       @extend .masthead;
       background: url("../img/LIF1.jpg") 50% 0 repeat fixed $black;
   }
-	&--rules {
+  &--rules {
       @extend .masthead;
       background: url("../img/LIF4.jpg") 50% 0 repeat fixed $black;
   }
-	&--events {
+  &--events {
       @extend .masthead;
       background: url("../img/LIF2.jpg") 50% 0 repeat fixed $black;
   }
-	&--screenshots {
+  &--screenshots {
       @extend .masthead;
       background: url("../img/LIF6.jpg") 50% 0 repeat fixed $black;
   }
-	&--money {
+  &--money {
       @extend .masthead;
       background: url("../img/LIF7.jpg") 50% 0 repeat fixed $black;
   }
-	&--contact {
+  &--contact {
       @extend .masthead;
       background: url("../img/LIF3.jpg") 50% 0 repeat fixed $black;
+  }
+  &--misc {
+      @extend .masthead;
+      background: url("../img/LIF1.jpg") 50% 0 repeat fixed $black;
   }
 }
 
 main {
-	width: 100%;
-	max-width: 960px;
-	height: auto;
-	overflow: hidden;
-	clear: both;
-	height: auto;
-	position: relative;
-	margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  overflow: hidden;
+  clear: both;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
   background: $secondaryColor;
-	overflow: hidden;
+  overflow: hidden;
   padding: 2% 0 5% 0;
   border: 1px solid $grey;
-	border-top-left-radius: 50px;
-		-moz-border-top-left-radius: 50px;
-		-webkit-border-top-left-radius: 50px;
-		-o-border-top-left-radius: 50px;
-		border-bottom-right-radius: 50px;
-			-moz-bottom-right-radius: 50px;
-			-webkit-bottom-right-radius: 50px;
-			-o-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+    -moz-border-top-left-radius: 50px;
+    -webkit-border-top-left-radius: 50px;
+    -o-border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+      -moz-bottom-right-radius: 50px;
+      -webkit-bottom-right-radius: 50px;
+      -o-bottom-right-radius: 50px;
 }
 
 footer {
-	width: 100%;
+  width: 100%;
   float: right;
-	overflow: hidden;
-	padding: 2%;
-	margin-top: 25px;
-	background: url("../img/dark_wall.png");
+  overflow: hidden;
+  padding: 2%;
+  margin-top: 25px;
+  background: url("../img/dark_wall.png");
   color: $primaryColor;
-	.footer-items {
-		width: 100%;
-		img {
-			display: block;
-			margin: 0 auto;
-		}
-	}
-	&.display-none {
-		display: none !important;
-	}
+  .footer-items {
+    width: 100%;
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  .footer-links {
+    text-align: center;
+    font-size: 90%;
+    font-family: $primaryFont;
+    padding: 20px 0;
+    a {
+      color: $lightgrey;
+      text-decoration: none;
+      &:hover {
+        color: $orange;
+        text-decoration: underline;
+      }
+    }
+  }
+  &.display-none {
+    display: none !important;
+  }
 }
 .post-footer {
-	width: 100%;
-	float: left;
-	height: 50px;
-	background: url("../img/bricks.png");
+  width: 100%;
+  float: left;
+  height: 50px;
+  background: url("../img/bricks.png");
 }
 
 // Sitewide styles
 
 .title {
-	height: 458px;
-	position: absolute;
-	text-align: center;
-	top: 200px;
-	width: 100%;
-	z-index: -1;
-	@include mq($mob--lrg){
-		top: 250px;
-	}
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  width: 100%;
+  z-index: -1;
+  @include mq($mob--lrg){
+    top: 250px;
+  }
 }
 
 .scale-img {
-	width: 100%;
-	margin: 2% 0;
-	border: 1px solid $grey;
+  width: 100%;
+  margin: 2% 0;
+  border: 1px solid $grey;
 }
 
 .rules {
-	background: $white;
-	z-index: 1;
-	display: block;
-	position: fixed;
-	top: 0;
-	padding: 1%;
-	font-family: $primaryFont;
-	border-bottom-right-radius: 20px;
-		-moz-bottom-right-radius: 20px;
-		-webkit-bottom-right-radius: 20px;
-		-o-bottom-right-radius: 20px;
-		@include mq($mob){
-			display: none;
-		}
+  background: $white;
+  z-index: 1;
+  display: block;
+  position: fixed;
+  top: 0;
+  padding: 1%;
+  font-family: $primaryFont;
+  border-bottom-right-radius: 20px;
+    -moz-bottom-right-radius: 20px;
+    -webkit-bottom-right-radius: 20px;
+    -o-bottom-right-radius: 20px;
+    @include mq($mob){
+      display: none;
+    }
 }
 
 ol {
-	margin-left: 1.5%;
-	font-family: $primaryFont;
-	font-size: $medium;
-	margin-bottom: 5%;
-	li {
-		margin-bottom: 1%;
-	}
- 	ul {
-		padding: 5%;
-		font-family: $primaryFont;
-		font-size: $medium;
-	}
+  margin-left: 1.5%;
+  font-family: $primaryFont;
+  font-size: $medium;
+  margin-bottom: 5%;
+  li {
+    margin-bottom: 1%;
+  }
+   ul {
+    padding: 5%;
+    font-family: $primaryFont;
+    font-size: $medium;
+  }
 }
 
 // Page Styles
 
 .events {
-	.event {
-		border-bottom: 1px solid $grey;
-		margin: 5px 0 5px 0;
-		padding: 5px 0 5px 0;
+  .event {
+    border-bottom: 1px solid $grey;
+    margin: 5px 0 5px 0;
+    padding: 5px 0 5px 0;
 
-	  h3 {
-			margin: 0 0 5px 0;
-		}
-		p.when {
-			font-family: $primaryFont;
-	    font-size: $medium;
-	    line-height: 1.5;
-	    margin: 0 0 5px 0;
-	    padding: 1%;
-		}
-		&:first-child {
-			border-top: 1px solid $grey;
-		}
-	}
+    h3 {
+      margin: 0 0 5px 0;
+    }
+    p.when {
+      font-family: $primaryFont;
+      font-size: $medium;
+      line-height: 1.5;
+      margin: 0 0 5px 0;
+      padding: 1%;
+    }
+    &:first-child {
+      border-top: 1px solid $grey;
+    }
+  }
 }
 
 .screenshots {
-	width: 100%;
+  width: 100%;
   float: right;
-	overflow: hidden;
-	.screenshots-item {
-			display: inline-block;
-			width: 250px;
-			height: 250px;
-			border: 1px solid $grey;
-			overflow: hidden;
-	}
-	@include mq($tab--lrg){
-		a	{
-			display: inline-block;
-			width: 50%;
-			text-align: center;
-			.screenshots-item {
-				margin: 0 auto;
-			}
-		}
-	}
-	@include mq($mob--lrg){
-		a {
-			width: 100%;
-		}
-	}
+  overflow: hidden;
+  .screenshots-item {
+      display: inline-block;
+      width: 250px;
+      height: 250px;
+      border: 1px solid $grey;
+      overflow: hidden;
+  }
+  @include mq($tab--lrg){
+    a  {
+      display: inline-block;
+      width: 50%;
+      text-align: center;
+      .screenshots-item {
+        margin: 0 auto;
+      }
+    }
+  }
+  @include mq($mob--lrg){
+    a {
+      width: 100%;
+    }
+  }
 }
 
 .map {
-	position: fixed;
-	top: 72px;
-	left: 0px;
-	right: 0px;
-	bottom: 0px;
-	z-index: -2;
-	@include mq($mob--lrg){
-		top: 98px;
-	}
+  position: fixed;
+  top: 72px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -2;
+  @include mq($mob--lrg){
+    top: 98px;
+  }
 
-	iframe {
-		width: 100%;
-		height: 100%;
-	}
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .opacity-dark {
-	position: fixed;
-	background: $black;
-	opacity: 0.5;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	z-index: 98;
+  position: fixed;
+  background: $black;
+  opacity: 0.5;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 98;
 }
 
 .popup {
-	position: fixed;
-	left: 50%;
-	transform: translate(-50%, 0);
-	top: 40%;
-	z-index: 99;
-	background: white;
-	padding: 2%;
-	border: 1px solid $grey;
-	border-top-left-radius: 50px;
-		-moz-border-top-left-radius: 50px;
-		-webkit-border-top-left-radius: 50px;
-		-o-border-top-left-radius: 50px;
-		border-bottom-right-radius: 50px;
-			-moz-bottom-right-radius: 50px;
-			-webkit-bottom-right-radius: 50px;
-			-o-bottom-right-radius: 50px;
-	.close {
-		color: $black;
-		float: right;
-		font-family: $primaryFont;
-		text-decoration: none;
-		&:hover {
-			color: $orange;
-		}
-	}
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 40%;
+  z-index: 99;
+  background: white;
+  padding: 2%;
+  border: 1px solid $grey;
+  border-top-left-radius: 50px;
+    -moz-border-top-left-radius: 50px;
+    -webkit-border-top-left-radius: 50px;
+    -o-border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+      -moz-bottom-right-radius: 50px;
+      -webkit-bottom-right-radius: 50px;
+      -o-bottom-right-radius: 50px;
+  .close {
+    color: $black;
+    float: right;
+    font-family: $primaryFont;
+    text-decoration: none;
+    &:hover {
+      color: $orange;
+    }
+  }
 }
 
 // Misc
@@ -454,14 +472,48 @@ ol {
 .bg-black {background: $black;}
 .display-none { display: none;}
 @include mq($mob--lrg){
-	.display-none { display: block;}
-	.display { display: none;}
+  .display-none { display: block;}
+  .display { display: none;}
 }
 
 em { font-style: italic; }
 strong { font-weight: bold; }
 fieldset {
-	border: 1px solid $grey;
-	padding: 5%;
-	margin: 0 0 20px 0;
+  border: 1px solid $grey;
+  padding: 5%;
+  margin: 0 0 20px 0;
+}
+
+table.stats-table {
+  width: 100%;
+
+  thead {
+    tr {
+      th {
+        font-weight: bold;
+        font-family: $primaryFont;
+        background: $orange;
+        padding: 8px 6px 6px 6px;
+      }
+    }
+  }
+  tbody {
+    tr {
+      td {
+        padding: 6px;
+        font-family: $primaryFont;
+      }
+
+      &:nth-child(even) {
+        background: $lightgrey;
+      }
+    }
+  }
+}
+
+.smallprint {
+  font-size: 90%;
+  color: $grey;
+  font-style: italic;
+  padding: 20px 5px;
 }
