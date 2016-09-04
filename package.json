@@ -25,6 +25,7 @@
     "dustjs-linkedin": "^2.7.2",
     "express": "^4.13.4",
     "morgan": "^1.7.0",
+    "mysql": "^2.11.1",
     "node-sass-middleware": "^0.9.8",
     "nomoreunhandledrejections": "^0.1.0",
     "path": "^0.12.7"
